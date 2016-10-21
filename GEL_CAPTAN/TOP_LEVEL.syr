@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.11 secs
+Total CPU time to Xst completion: 0.09 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.11 secs
+Total CPU time to Xst completion: 0.09 secs
  
 --> Reading design: TOP_LEVEL.prj
 
@@ -357,13 +357,13 @@ Analyzing Entity <TOP_LEVEL> in library <work> (Architecture <BEHAVIORAL>).
     Set user-defined property "FACTORY_JF =  F0F0" for instance <XLXI_3410> in unit <TOP_LEVEL>.
     Set user-defined property "PHASE_SHIFT =  0" for instance <XLXI_3410> in unit <TOP_LEVEL>.
     Set user-defined property "STARTUP_WAIT =  FALSE" for instance <XLXI_3410> in unit <TOP_LEVEL>.
-WARNING:Xst:753 - "D:/cbradford/FiFoFix/GEL_CAPTAN/TOP_LEVEL.vhf" line 1231: Unconnected output port 'D10' of component 'D4_16E_MXILINX_TOP_LEVEL'.
-WARNING:Xst:753 - "D:/cbradford/FiFoFix/GEL_CAPTAN/TOP_LEVEL.vhf" line 1231: Unconnected output port 'D11' of component 'D4_16E_MXILINX_TOP_LEVEL'.
-WARNING:Xst:753 - "D:/cbradford/FiFoFix/GEL_CAPTAN/TOP_LEVEL.vhf" line 1231: Unconnected output port 'D12' of component 'D4_16E_MXILINX_TOP_LEVEL'.
-WARNING:Xst:753 - "D:/cbradford/FiFoFix/GEL_CAPTAN/TOP_LEVEL.vhf" line 1231: Unconnected output port 'D13' of component 'D4_16E_MXILINX_TOP_LEVEL'.
-WARNING:Xst:753 - "D:/cbradford/FiFoFix/GEL_CAPTAN/TOP_LEVEL.vhf" line 1231: Unconnected output port 'D14' of component 'D4_16E_MXILINX_TOP_LEVEL'.
-WARNING:Xst:753 - "D:/cbradford/FiFoFix/GEL_CAPTAN/TOP_LEVEL.vhf" line 1231: Unconnected output port 'D15' of component 'D4_16E_MXILINX_TOP_LEVEL'.
-WARNING:Xst:753 - "D:/cbradford/FiFoFix/GEL_CAPTAN/TOP_LEVEL.vhf" line 1231: Unconnected output port 'D9' of component 'D4_16E_MXILINX_TOP_LEVEL'.
+WARNING:Xst:753 - "D:/cbradford/FiFoFix/GEL_CAPTAN/TOP_LEVEL.vhf" line 1232: Unconnected output port 'D10' of component 'D4_16E_MXILINX_TOP_LEVEL'.
+WARNING:Xst:753 - "D:/cbradford/FiFoFix/GEL_CAPTAN/TOP_LEVEL.vhf" line 1232: Unconnected output port 'D11' of component 'D4_16E_MXILINX_TOP_LEVEL'.
+WARNING:Xst:753 - "D:/cbradford/FiFoFix/GEL_CAPTAN/TOP_LEVEL.vhf" line 1232: Unconnected output port 'D12' of component 'D4_16E_MXILINX_TOP_LEVEL'.
+WARNING:Xst:753 - "D:/cbradford/FiFoFix/GEL_CAPTAN/TOP_LEVEL.vhf" line 1232: Unconnected output port 'D13' of component 'D4_16E_MXILINX_TOP_LEVEL'.
+WARNING:Xst:753 - "D:/cbradford/FiFoFix/GEL_CAPTAN/TOP_LEVEL.vhf" line 1232: Unconnected output port 'D14' of component 'D4_16E_MXILINX_TOP_LEVEL'.
+WARNING:Xst:753 - "D:/cbradford/FiFoFix/GEL_CAPTAN/TOP_LEVEL.vhf" line 1232: Unconnected output port 'D15' of component 'D4_16E_MXILINX_TOP_LEVEL'.
+WARNING:Xst:753 - "D:/cbradford/FiFoFix/GEL_CAPTAN/TOP_LEVEL.vhf" line 1232: Unconnected output port 'D9' of component 'D4_16E_MXILINX_TOP_LEVEL'.
     Set user-defined property "HU_SET =  XLXI_3432_0" for instance <XLXI_3432> in unit <TOP_LEVEL>.
     Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <XLXI_4136> in unit <TOP_LEVEL>.
     Set user-defined property "IOSTANDARD =  DEFAULT" for instance <XLXI_4136> in unit <TOP_LEVEL>.
@@ -638,8 +638,8 @@ WARNING:Xst:753 - "D:/cbradford/FiFoFix/GEL_CAPTAN/TOP_LEVEL.vhf" line 1231: Unc
     Set user-defined property "IOSTANDARD =  DEFAULT" for instance <XLXI_6236> in unit <TOP_LEVEL>.
     Set user-defined property "SLEW =  SLOW" for instance <XLXI_6236> in unit <TOP_LEVEL>.
     Set user-defined property "HU_SET =  XLXI_6247_6" for instance <XLXI_6247> in unit <TOP_LEVEL>.
-WARNING:Xst:753 - "D:/cbradford/FiFoFix/GEL_CAPTAN/TOP_LEVEL.vhf" line 1898: Unconnected output port 'valid' of component 'ethernet_FIFO'.
-WARNING:Xst:2211 - "D:/cbradford/FiFoFix/GEL_CAPTAN/TOP_LEVEL.vhf" line 1898: Instantiating black box module <ethernet_FIFO>.
+WARNING:Xst:753 - "D:/cbradford/FiFoFix/GEL_CAPTAN/TOP_LEVEL.vhf" line 1899: Unconnected output port 'valid' of component 'ethernet_FIFO'.
+WARNING:Xst:2211 - "D:/cbradford/FiFoFix/GEL_CAPTAN/TOP_LEVEL.vhf" line 1899: Instantiating black box module <ethernet_FIFO>.
     Set user-defined property "HU_SET =  XLXI_6251_5" for instance <XLXI_6251> in unit <TOP_LEVEL>.
     Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <XLXI_6291> in unit <TOP_LEVEL>.
     Set user-defined property "DRIVE =  12" for instance <XLXI_6291> in unit <TOP_LEVEL>.
@@ -657,12 +657,12 @@ WARNING:Xst:2211 - "D:/cbradford/FiFoFix/GEL_CAPTAN/TOP_LEVEL.vhf" line 1898: In
     Set user-defined property "DRIVE =  12" for instance <XLXI_6330> in unit <TOP_LEVEL>.
     Set user-defined property "IOSTANDARD =  DEFAULT" for instance <XLXI_6330> in unit <TOP_LEVEL>.
     Set user-defined property "SLEW =  SLOW" for instance <XLXI_6330> in unit <TOP_LEVEL>.
-WARNING:Xst:753 - "D:/cbradford/FiFoFix/GEL_CAPTAN/TOP_LEVEL.vhf" line 2049: Unconnected output port 'full' of component 'ADC_FIFO'.
-WARNING:Xst:753 - "D:/cbradford/FiFoFix/GEL_CAPTAN/TOP_LEVEL.vhf" line 2049: Unconnected output port 'overflow' of component 'ADC_FIFO'.
-WARNING:Xst:753 - "D:/cbradford/FiFoFix/GEL_CAPTAN/TOP_LEVEL.vhf" line 2049: Unconnected output port 'dout' of component 'ADC_FIFO'.
-WARNING:Xst:753 - "D:/cbradford/FiFoFix/GEL_CAPTAN/TOP_LEVEL.vhf" line 2049: Unconnected output port 'empty' of component 'ADC_FIFO'.
-WARNING:Xst:753 - "D:/cbradford/FiFoFix/GEL_CAPTAN/TOP_LEVEL.vhf" line 2049: Unconnected output port 'valid' of component 'ADC_FIFO'.
-WARNING:Xst:2211 - "D:/cbradford/FiFoFix/GEL_CAPTAN/TOP_LEVEL.vhf" line 2049: Instantiating black box module <ADC_FIFO>.
+WARNING:Xst:753 - "D:/cbradford/FiFoFix/GEL_CAPTAN/TOP_LEVEL.vhf" line 2050: Unconnected output port 'full' of component 'ADC_FIFO'.
+WARNING:Xst:753 - "D:/cbradford/FiFoFix/GEL_CAPTAN/TOP_LEVEL.vhf" line 2050: Unconnected output port 'overflow' of component 'ADC_FIFO'.
+WARNING:Xst:753 - "D:/cbradford/FiFoFix/GEL_CAPTAN/TOP_LEVEL.vhf" line 2050: Unconnected output port 'dout' of component 'ADC_FIFO'.
+WARNING:Xst:753 - "D:/cbradford/FiFoFix/GEL_CAPTAN/TOP_LEVEL.vhf" line 2050: Unconnected output port 'empty' of component 'ADC_FIFO'.
+WARNING:Xst:753 - "D:/cbradford/FiFoFix/GEL_CAPTAN/TOP_LEVEL.vhf" line 2050: Unconnected output port 'valid' of component 'ADC_FIFO'.
+WARNING:Xst:2211 - "D:/cbradford/FiFoFix/GEL_CAPTAN/TOP_LEVEL.vhf" line 2050: Instantiating black box module <ADC_FIFO>.
 Entity <TOP_LEVEL> analyzed. Unit <TOP_LEVEL> generated.
 
 Analyzing Entity <D4_16E_MXILINX_TOP_LEVEL> in library <work> (Architecture <BEHAVIORAL>).
@@ -2399,7 +2399,22 @@ Optimizing unit <ethernet_controller> ...
 Optimizing unit <ethernet_controller_wrapper> ...
 
 Optimizing unit <ethernet_interface> ...
+WARNING:Xst:1426 - The value init of the FF/Latch signals_0 hinder the constant cleaning in the block XLXI_6331.
+   You should achieve better results by setting this init to 1.
+WARNING:Xst:1710 - FF/Latch <done> (without init value) has a constant value of 0 in block <XLXI_6331>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <triggered> (without init value) has a constant value of 0 in block <XLXI_6331>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <clock_place_0> has a constant value of 0 in block <XLXI_6331>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <clock_place_1> has a constant value of 0 in block <XLXI_6331>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <clock_place_2> has a constant value of 0 in block <XLXI_6331>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <signals_0> (without init value) has a constant value of 0 in block <XLXI_6331>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <signals_2> (without init value) has a constant value of 0 in block <XLXI_6331>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <signals_4> (without init value) has a constant value of 0 in block <XLXI_6331>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <signals_6> (without init value) has a constant value of 0 in block <XLXI_6331>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <tx_er> (without init value) has a constant value of 0 in block <crcSplice>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <delay_0> has a constant value of 0 in block <XLXI_6331>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <delay_1> has a constant value of 0 in block <XLXI_6331>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <delay_2> has a constant value of 0 in block <XLXI_6331>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <delay_3> has a constant value of 0 in block <XLXI_6331>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1290 - Hierarchical block <XLXI_6294> is unconnected in block <TOP_LEVEL>.
    It will be removed from the design.
 WARNING:Xst:1290 - Hierarchical block <XLXI_6321> is unconnected in block <TOP_LEVEL>.
@@ -2692,7 +2707,7 @@ Design Statistics
 # IOs                              : 81
 
 Cell Usage :
-# BELS                             : 5818
+# BELS                             : 5799
 #      AND2                        : 5
 #      AND2B1                      : 4
 #      AND5                        : 1
@@ -2701,26 +2716,26 @@ Cell Usage :
 #      AND5B3                      : 4
 #      AND5B4                      : 1
 #      BUF                         : 5
-#      GND                         : 28
-#      INV                         : 182
+#      GND                         : 29
+#      INV                         : 179
 #      LUT1                        : 216
-#      LUT2                        : 482
+#      LUT2                        : 477
 #      LUT2_D                      : 33
-#      LUT2_L                      : 24
-#      LUT3                        : 1139
+#      LUT2_L                      : 25
+#      LUT3                        : 1132
 #      LUT3_D                      : 26
 #      LUT3_L                      : 67
-#      LUT4                        : 1825
+#      LUT4                        : 1819
 #      LUT4_D                      : 77
-#      LUT4_L                      : 285
+#      LUT4_L                      : 286
 #      MUXCY                       : 790
 #      MUXF5                       : 137
 #      MUXF6                       : 40
 #      OR2                         : 7
-#      VCC                         : 25
+#      VCC                         : 24
 #      XOR2                        : 2
 #      XORCY                       : 403
-# FlipFlops/Latches                : 2364
+# FlipFlops/Latches                : 2351
 #      FD                          : 95
 #      FDC                         : 142
 #      FDCE                        : 149
@@ -2733,10 +2748,6 @@ Cell Usage :
 #      FDRSE                       : 1
 #      FDS                         : 16
 #      FDSE                        : 96
-#      LD                          : 1
-#      LDCE                        : 4
-#      LDCE_1                      : 1
-#      LDE                         : 7
 # RAMS                             : 209
 #      RAM16X1D                    : 192
 #      RAMB16                      : 17
@@ -2763,10 +2774,10 @@ Device utilization summary:
 
 Selected Device : 4vlx25ff668-10 
 
- Number of Slices:                     3091  out of  10752    28%  
- Number of Slice Flip Flops:           2364  out of  21504    10%  
- Number of 4 input LUTs:               4764  out of  21504    22%  
-    Number used as logic:              4356
+ Number of Slices:                     3082  out of  10752    28%  
+ Number of Slice Flip Flops:           2351  out of  21504    10%  
+ Number of 4 input LUTs:               4745  out of  21504    22%  
+    Number used as logic:              4337
     Number used as Shift registers:      24
     Number used as RAMs:                384
  Number of IOs:                          81
@@ -2794,20 +2805,14 @@ NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
 
 Clock Information:
 ------------------
--------------------------------------------------------+------------------------------------------------------------------------------------------------------------+-------+
-Clock Signal                                           | Clock buffer(FF name)                                                                                      | Load  |
--------------------------------------------------------+------------------------------------------------------------------------------------------------------------+-------+
-GEL_RXCLK                                              | IBUFG+BUFG                                                                                                 | 2384  |
-BUSBHS_02DP_04S                                        | XLXI_6199:CLK0                                                                                             | 112   |
-XLXN_15140                                             | NONE(XLXI_6336/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_fb_i)| 74    |
-XLXI_6331/done_not0001(XLXI_6331/done_not0001:O)       | NONE(*)(XLXI_6331/done)                                                                                    | 1     |
-XLXI_6331/triggered                                    | NONE(XLXI_6331/triggered)                                                                                  | 5     |
-XLXI_6331/signals_and0001(XLXI_6331/signals_and00011:O)| NONE(*)(XLXI_6331/clock_place_0)                                                                           | 7     |
-SECONDARY_CLK                                          | IBUFG                                                                                                      | 18    |
--------------------------------------------------------+------------------------------------------------------------------------------------------------------------+-------+
-(*) These 2 clock signal(s) are generated by combinatorial logic,
-and XST is not able to identify which are the primary clock signals.
-Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+-----------------------------------+------------------------------------------------------------------------------------------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)                                                                                      | Load  |
+-----------------------------------+------------------------------------------------------------------------------------------------------------+-------+
+GEL_RXCLK                          | IBUFG+BUFG                                                                                                 | 2384  |
+BUSBHS_02DP_04S                    | XLXI_6199:CLK0                                                                                             | 112   |
+XLXN_15518                         | NONE(XLXI_6336/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_fb_i)| 74    |
+SECONDARY_CLK                      | IBUFG                                                                                                      | 18    |
+-----------------------------------+------------------------------------------------------------------------------------------------------------+-------+
 INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
 
 Asynchronous Control Signals Information:
@@ -2828,7 +2833,6 @@ XLXI_6227/data_manager_blk/TX_DATA_INFO_FIFO/BU2/dbiterr(XLXI_6227/data_manager_
 XLXI_6248/N0(XLXI_6248/XST_GND:G)                                                                                                                  | NONE(XLXI_6248/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v4_noinit.ram/SDP.SINGLE_PRIM.SDP)| 16    |
 XLXI_6336/N0(XLXI_6336/XST_GND:G)                                                                                                                  | NONE(XLXI_6336/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/wr_pntr_gc_0)                                                                                                   | 14    |
 XLXI_6227/reset_mgr/reset(XLXI_6227/reset_mgr/reset:Q)                                                                                             | NONE(XLXI_6248/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/RST_FULL_GEN)                                                                                                                       | 6     |
-XLXI_6331/signals_and0000(XLXI_6331/signals_and00001:O)                                                                                            | NONE(XLXI_6331/signals_0)                                                                                                                                                                           | 5     |
 XLXI_6248/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/rd_rst_comb(XLXI_6248/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/rd_rst_comb1:O)  | NONE(XLXI_6248/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/rd_rst_reg_0)                                                                                                                       | 3     |
 XLXI_6248/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/rst_d2(XLXI_6248/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/rst_d2:Q)             | NONE(XLXI_6248/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_fb_i)                                                                                          | 2     |
 XLXI_6248/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/wr_rst_comb(XLXI_6248/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/wr_rst_comb1:O)  | NONE(XLXI_6248/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/wr_rst_reg_0)                                                                                                                       | 2     |
@@ -2838,9 +2842,9 @@ Timing Summary:
 ---------------
 Speed Grade: -10
 
-   Minimum period: 7.834ns (Maximum Frequency: 127.641MHz)
+   Minimum period: 7.827ns (Maximum Frequency: 127.768MHz)
    Minimum input arrival time before clock: 6.278ns
-   Maximum output required time after clock: 6.479ns
+   Maximum output required time after clock: 6.471ns
    Maximum combinational path delay: 5.299ns
 
 Timing Detail:
@@ -2927,10 +2931,10 @@ Offset:              0.742ns (Levels of Logic = 0)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'SECONDARY_CLK'
-  Clock period: 7.834ns (frequency: 127.641MHz)
+  Clock period: 7.827ns (frequency: 127.768MHz)
   Total number of paths / destination ports: 2002 / 1724
 -------------------------------------------------------------------------
-Offset:              7.834ns (Levels of Logic = 5)
+Offset:              7.827ns (Levels of Logic = 5)
   Source:            XLXI_6227/reset_mgr/reset (FF)
   Destination:       XLXI_6227/data_manager_blk/RX_DATA_FIFO/BU2/U0/grf.rf/gl0.rd/rpntr/count_7 (FF)
   Source Clock:      SECONDARY_CLK rising
@@ -2940,7 +2944,7 @@ Offset:              7.834ns (Levels of Logic = 5)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDS:C->Q            164   0.360   1.444  reset (reset)
+     FDS:C->Q            162   0.360   1.436  reset (reset)
      end scope: 'reset_mgr'
      BUF:I->O            487   0.358   2.870  reset_mgr_reset_1 (reset_mgr_reset_1)
      begin scope: 'data_manager_blk'
@@ -2950,15 +2954,15 @@ Offset:              7.834ns (Levels of Logic = 5)
      LUT3:I0->O           16   0.195   0.593  U0/grf.rf/gl0.wr/wpntr/count_not00011 (U0/grf.rf/gl0.wr/wpntr/count_not0001)
      FDCE:CE                   0.540          U0/grf.rf/gl0.wr/wpntr/count_7
     ----------------------------------------
-    Total                      7.834ns (1.648ns logic, 6.186ns route)
-                                       (21.0% logic, 79.0% route)
+    Total                      7.827ns (1.648ns logic, 6.179ns route)
+                                       (21.1% logic, 78.9% route)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'SECONDARY_CLK'
-  Clock period: 2.866ns (frequency: 348.926MHz)
+  Clock period: 2.858ns (frequency: 349.880MHz)
   Total number of paths / destination ports: 18 / 18
 -------------------------------------------------------------------------
-Offset:              2.866ns (Levels of Logic = 2)
+Offset:              2.858ns (Levels of Logic = 2)
   Source:            XLXI_6227/reset_mgr/reset (FF)
   Destination:       XLXI_6249/out_en_sig (FF)
   Source Clock:      SECONDARY_CLK rising
@@ -2968,128 +2972,14 @@ Offset:              2.866ns (Levels of Logic = 2)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDS:C->Q            164   0.360   1.444  reset (reset)
+     FDS:C->Q            162   0.360   1.436  reset (reset)
      end scope: 'reset_mgr'
      end scope: 'XLXI_6227'
      begin scope: 'XLXI_6249'
      FDRE:R                    1.062          out_en_sig
     ----------------------------------------
-    Total                      2.866ns (1.422ns logic, 1.444ns route)
-                                       (49.6% logic, 50.4% route)
-
-=========================================================================
-Timing constraint: Default period analysis for Clock 'XLXI_6331/triggered'
-  Clock period: 2.343ns (frequency: 426.776MHz)
-  Total number of paths / destination ports: 5 / 1
--------------------------------------------------------------------------
-Offset:              2.343ns (Levels of Logic = 2)
-  Source:            XLXI_6331/delay_0 (LATCH)
-  Destination:       XLXI_6331/done (LATCH)
-  Source Clock:      XLXI_6331/triggered falling
-  Destination Clock: XLXI_6331/done_not0001 falling
-
-  Data Path: XLXI_6331/delay_0 to XLXI_6331/done
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     LDE:G->Q              5   0.473   0.764  delay_0 (delay_0)
-     LUT4:I0->O            9   0.195   0.694  done_mux000421 (signals_cmp_eq0000)
-     LUT4:I2->O            1   0.195   0.000  done_mux00041 (done_mux0004)
-     LD:D                      0.022          done
-    ----------------------------------------
-    Total                      2.343ns (0.885ns logic, 1.458ns route)
-                                       (37.8% logic, 62.2% route)
-
-=========================================================================
-Timing constraint: Default period analysis for Clock 'XLXI_6331/signals_and0001'
-  Clock period: 2.346ns (frequency: 426.258MHz)
-  Total number of paths / destination ports: 3 / 1
--------------------------------------------------------------------------
-Offset:              2.346ns (Levels of Logic = 2)
-  Source:            XLXI_6331/clock_place_1 (LATCH)
-  Destination:       XLXI_6331/done (LATCH)
-  Source Clock:      XLXI_6331/signals_and0001 falling
-  Destination Clock: XLXI_6331/done_not0001 falling
-
-  Data Path: XLXI_6331/clock_place_1 to XLXI_6331/done
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     LDE:G->Q              8   0.473   0.773  clock_place_1 (clock_place_1)
-     LUT3:I0->O            1   0.195   0.688  done_mux000411 (N4)
-     LUT4:I1->O            1   0.195   0.000  done_mux00041 (done_mux0004)
-     LD:D                      0.022          done
-    ----------------------------------------
-    Total                      2.346ns (0.885ns logic, 1.461ns route)
-                                       (37.7% logic, 62.3% route)
-
-=========================================================================
-Timing constraint: Default period analysis for Clock 'SECONDARY_CLK'
-  Clock period: 2.344ns (frequency: 426.632MHz)
-  Total number of paths / destination ports: 1 / 1
--------------------------------------------------------------------------
-Offset:              2.344ns (Levels of Logic = 2)
-  Source:            XLXI_6227/reset_mgr/reset (FF)
-  Destination:       XLXI_6331/triggered (LATCH)
-  Source Clock:      SECONDARY_CLK rising
-  Destination Clock: XLXI_6331/triggered rising
-
-  Data Path: XLXI_6227/reset_mgr/reset to XLXI_6331/triggered
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     FDS:C->Q            164   0.360   1.444  reset (reset)
-     end scope: 'reset_mgr'
-     end scope: 'XLXI_6227'
-     begin scope: 'XLXI_6331'
-     LDCE_1:GE                 0.540          triggered
-    ----------------------------------------
-    Total                      2.344ns (0.900ns logic, 1.444ns route)
-                                       (38.4% logic, 61.6% route)
-
-=========================================================================
-Timing constraint: Default period analysis for Clock 'XLXI_6331/done_not0001'
-  Clock period: 2.128ns (frequency: 469.991MHz)
-  Total number of paths / destination ports: 4 / 4
--------------------------------------------------------------------------
-Offset:              2.128ns (Levels of Logic = 1)
-  Source:            XLXI_6331/done (LATCH)
-  Destination:       XLXI_6331/delay_0 (LATCH)
-  Source Clock:      XLXI_6331/done_not0001 falling
-  Destination Clock: XLXI_6331/triggered falling
-
-  Data Path: XLXI_6331/done to XLXI_6331/delay_0
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     LD:G->Q               5   0.473   0.383  done (done)
-     INV:I->O              4   0.358   0.374  delay_0_0_not00001_INV_0 (delay_0_0_not0000)
-     LDE:GE                    0.540          delay_0
-    ----------------------------------------
-    Total                      2.128ns (1.371ns logic, 0.757ns route)
-                                       (64.4% logic, 35.6% route)
-
-=========================================================================
-Timing constraint: Default period analysis for Clock 'XLXI_6331/triggered'
-  Clock period: 2.441ns (frequency: 409.643MHz)
-  Total number of paths / destination ports: 28 / 7
--------------------------------------------------------------------------
-Offset:              2.441ns (Levels of Logic = 1)
-  Source:            XLXI_6331/delay_0 (LATCH)
-  Destination:       XLXI_6331/clock_place_0 (LATCH)
-  Source Clock:      XLXI_6331/triggered falling
-  Destination Clock: XLXI_6331/signals_and0001 falling
-
-  Data Path: XLXI_6331/delay_0 to XLXI_6331/clock_place_0
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     LDE:G->Q              5   0.473   0.764  delay_0 (delay_0)
-     LUT4:I0->O            9   0.195   0.469  done_mux000421 (signals_cmp_eq0000)
-     LDE:GE                    0.540          clock_place_2
-    ----------------------------------------
-    Total                      2.441ns (1.208ns logic, 1.233ns route)
-                                       (49.5% logic, 50.5% route)
+    Total                      2.858ns (1.422ns logic, 1.436ns route)
+                                       (49.8% logic, 50.2% route)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'GEL_RXCLK'
@@ -3208,15 +3098,15 @@ Delay:               4.994ns (Levels of Logic = 34)
                                        (69.7% logic, 30.3% route)
 
 =========================================================================
-Timing constraint: Default period analysis for Clock 'XLXN_15140'
+Timing constraint: Default period analysis for Clock 'XLXN_15518'
   Clock period: 2.792ns (frequency: 358.128MHz)
   Total number of paths / destination ports: 273 / 160
 -------------------------------------------------------------------------
 Delay:               2.792ns (Levels of Logic = 3)
   Source:            XLXI_6336/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_fb_i (FF)
   Destination:       XLXI_6336/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_i (FF)
-  Source Clock:      XLXN_15140 rising
-  Destination Clock: XLXN_15140 rising
+  Source Clock:      XLXN_15518 rising
+  Destination Clock: XLXN_15518 rising
 
   Data Path: XLXI_6336/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_fb_i to XLXI_6336/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_i
                                 Gate     Net
@@ -3230,72 +3120,6 @@ Delay:               2.792ns (Levels of Logic = 3)
     ----------------------------------------
     Total                      2.792ns (0.967ns logic, 1.825ns route)
                                        (34.6% logic, 65.4% route)
-
-=========================================================================
-Timing constraint: Default period analysis for Clock 'XLXI_6331/done_not0001'
-  Clock period: 1.236ns (frequency: 809.094MHz)
-  Total number of paths / destination ports: 1 / 1
--------------------------------------------------------------------------
-Delay:               1.236ns (Levels of Logic = 1)
-  Source:            XLXI_6331/done (LATCH)
-  Destination:       XLXI_6331/done (LATCH)
-  Source Clock:      XLXI_6331/done_not0001 falling
-  Destination Clock: XLXI_6331/done_not0001 falling
-
-  Data Path: XLXI_6331/done to XLXI_6331/done
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     LD:G->Q               5   0.473   0.546  done (done)
-     LUT4:I3->O            1   0.195   0.000  done_mux00041 (done_mux0004)
-     LD:D                      0.022          done
-    ----------------------------------------
-    Total                      1.236ns (0.690ns logic, 0.546ns route)
-                                       (55.8% logic, 44.2% route)
-
-=========================================================================
-Timing constraint: Default period analysis for Clock 'XLXI_6331/triggered'
-  Clock period: 1.596ns (frequency: 626.606MHz)
-  Total number of paths / destination ports: 10 / 4
--------------------------------------------------------------------------
-Delay:               1.596ns (Levels of Logic = 1)
-  Source:            XLXI_6331/delay_0 (LATCH)
-  Destination:       XLXI_6331/delay_0 (LATCH)
-  Source Clock:      XLXI_6331/triggered falling
-  Destination Clock: XLXI_6331/triggered falling
-
-  Data Path: XLXI_6331/delay_0 to XLXI_6331/delay_0
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     LDE:G->Q              5   0.473   0.383  delay_0 (delay_0)
-     INV:I->O              1   0.358   0.360  delay_mux0001<3>1_INV_0 (delay_mux0001<3>)
-     LDE:D                     0.022          delay_0
-    ----------------------------------------
-    Total                      1.596ns (0.853ns logic, 0.743ns route)
-                                       (53.4% logic, 46.6% route)
-
-=========================================================================
-Timing constraint: Default period analysis for Clock 'XLXI_6331/signals_and0001'
-  Clock period: 1.682ns (frequency: 594.477MHz)
-  Total number of paths / destination ports: 18 / 7
--------------------------------------------------------------------------
-Delay:               1.682ns (Levels of Logic = 1)
-  Source:            XLXI_6331/clock_place_0 (LATCH)
-  Destination:       XLXI_6331/clock_place_0 (LATCH)
-  Source Clock:      XLXI_6331/signals_and0001 falling
-  Destination Clock: XLXI_6331/signals_and0001 falling
-
-  Data Path: XLXI_6331/clock_place_0 to XLXI_6331/clock_place_0
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     LDE:G->Q              9   0.473   0.469  clock_place_0 (clock_place_0)
-     INV:I->O              1   0.358   0.360  clock_place_mux0002<2>1_INV_0 (clock_place_mux0002<2>)
-     LDE:D                     0.022          clock_place_0
-    ----------------------------------------
-    Total                      1.682ns (0.853ns logic, 0.829ns route)
-                                       (50.7% logic, 49.3% route)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'SECONDARY_CLK'
@@ -3409,7 +3233,7 @@ Offset:              4.694ns (Levels of Logic = 2)
 Timing constraint: Default OFFSET OUT AFTER for Clock 'SECONDARY_CLK'
   Total number of paths / destination ports: 1 / 1
 -------------------------------------------------------------------------
-Offset:              6.479ns (Levels of Logic = 3)
+Offset:              6.471ns (Levels of Logic = 3)
   Source:            XLXI_6227/reset_mgr/reset (FF)
   Destination:       BUSC_21DN_43S (PAD)
   Source Clock:      SECONDARY_CLK rising
@@ -3418,13 +3242,13 @@ Offset:              6.479ns (Levels of Logic = 3)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDS:C->Q            164   0.360   1.444  reset (reset)
+     FDS:C->Q            162   0.360   1.436  reset (reset)
      end scope: 'reset_mgr'
      end scope: 'XLXI_6227'
      INV:I->O              1   0.358   0.360  XLXI_6230 (XLXN_15150)
      OBUF:I->O                 3.957          XLXI_6229 (BUSC_21DN_43S)
     ----------------------------------------
-    Total                      6.479ns (4.675ns logic, 1.804ns route)
+    Total                      6.471ns (4.675ns logic, 1.796ns route)
                                        (72.2% logic, 27.8% route)
 
 =========================================================================
@@ -3449,13 +3273,13 @@ Delay:               5.299ns (Levels of Logic = 2)
 
 
 Total REAL time to Xst completion: 64.00 secs
-Total CPU time to Xst completion: 63.99 secs
+Total CPU time to Xst completion: 63.90 secs
  
 --> 
 
-Total memory usage is 661044 kilobytes
+Total memory usage is 631988 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :  299 (   0 filtered)
+Number of warnings :  313 (   0 filtered)
 Number of infos    :  135 (   0 filtered)
 

@@ -283,6 +283,7 @@
         <signal name="clk_latch_signals(6)" />
         <signal name="XLXN_15517" />
         <signal name="clk_latch_signals(4)" />
+        <signal name="XLXN_15518" />
         <port polarity="Input" name="BUSC_16DP_32S" />
         <port polarity="Input" name="SECONDARY_CLK" />
         <port polarity="Output" name="BUSC_25DN_51S" />
@@ -1874,7 +1875,7 @@
         </block>
         <block symbolname="ClockLatchSignals" name="XLXI_6331">
             <blockpin signalname="clock_5mhz" name="clk" />
-            <blockpin signalname="reset" name="rst" />
+            <blockpin signalname="XLXN_15518" name="rst" />
             <blockpin signalname="clk_latch_signals(7:0)" name="signals(7:0)" />
         </block>
         <block symbolname="or2" name="XLXI_6332">
@@ -1908,6 +1909,9 @@
             <blockpin name="rd_en" />
             <blockpin name="empty" />
             <blockpin name="valid" />
+        </block>
+        <block symbolname="gnd" name="XLXI_6338">
+            <blockpin signalname="XLXN_15518" name="G" />
         </block>
     </netlist>
     <sheet sheetnum="1" width="7040" height="5440">
@@ -3021,10 +3025,6 @@
         </branch>
         <instance x="1360" y="2448" name="XLXI_6331" orien="R0">
         </instance>
-        <branch name="reset">
-            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="1328" y="2416" type="branch" />
-            <wire x2="1360" y1="2416" y2="2416" x1="1328" />
-        </branch>
         <branch name="clock_5mhz">
             <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="1328" y="2352" type="branch" />
             <wire x2="1360" y1="2352" y2="2352" x1="1328" />
@@ -3095,6 +3095,11 @@
             <wire x2="4784" y1="3136" y2="3328" x1="4784" />
             <wire x2="4784" y1="3328" y2="3328" x1="4720" />
         </branch>
+        <branch name="XLXN_15518">
+            <wire x2="1360" y1="2416" y2="2416" x1="1312" />
+            <wire x2="1312" y1="2416" y2="2432" x1="1312" />
+        </branch>
+        <instance x="1248" y="2560" name="XLXI_6338" orien="R0" />
     </sheet>
     <sheet sheetnum="5" width="7040" height="5440">
         <branch name="GMII_RX_ER_0_sig">
