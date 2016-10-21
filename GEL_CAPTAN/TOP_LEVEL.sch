@@ -680,7 +680,7 @@
             <rect width="256" x="64" y="-320" height="256" />
         </blockdef>
         <blockdef name="ethernet_FIFO">
-            <timestamp>2016-8-26T20:58:21</timestamp>
+            <timestamp>2016-10-7T19:49:41</timestamp>
             <rect width="768" x="32" y="32" height="4032" />
             <line x2="32" y1="112" y2="112" x1="0" />
             <line x2="32" y1="208" y2="208" x1="0" />
@@ -761,6 +761,20 @@
             <line x2="48" y1="-144" y2="-144" x1="112" />
             <arc ex="112" ey="-144" sx="192" sy="-96" r="88" cx="116" cy="-56" />
             <line x2="48" y1="-48" y2="-48" x1="112" />
+        </blockdef>
+        <blockdef name="ADC_FIFO">
+            <timestamp>2016-7-20T20:53:15</timestamp>
+            <rect width="768" x="32" y="32" height="4032" />
+            <line x2="32" y1="208" y2="208" x1="0" />
+            <line x2="32" y1="240" y2="240" style="linewidth:W" x1="0" />
+            <line x2="32" y1="272" y2="272" x1="0" />
+            <line x2="32" y1="464" y2="464" x1="0" />
+            <line x2="32" y1="592" y2="592" x1="0" />
+            <line x2="800" y1="240" y2="240" x1="832" />
+            <line x2="800" y1="272" y2="272" style="linewidth:W" x1="832" />
+            <line x2="800" y1="304" y2="304" x1="832" />
+            <line x2="800" y1="496" y2="496" x1="832" />
+            <line x2="800" y1="592" y2="592" x1="832" />
         </blockdef>
         <block symbolname="ibuf" name="XLXI_4248">
             <blockpin signalname="BUSC_16DP_32S" name="I" />
@@ -1883,6 +1897,18 @@
             <blockpin signalname="clk_latch_signals(4)" name="I1" />
             <blockpin signalname="XLXN_15514" name="O" />
         </block>
+        <block symbolname="ADC_FIFO" name="XLXI_6336">
+            <blockpin name="wr_clk" />
+            <blockpin name="din(31:0)" />
+            <blockpin name="wr_en" />
+            <blockpin name="full" />
+            <blockpin name="overflow" />
+            <blockpin name="rd_clk" />
+            <blockpin name="dout(127:0)" />
+            <blockpin name="rd_en" />
+            <blockpin name="empty" />
+            <blockpin name="valid" />
+        </block>
     </netlist>
     <sheet sheetnum="1" width="7040" height="5440">
         <rect width="2260" x="424" y="276" height="1256" />
@@ -2624,6 +2650,8 @@
             <wire x2="4160" y1="1216" y2="1216" x1="4128" />
         </branch>
         <instance x="4160" y="1248" name="XLXI_6330" orien="R0" />
+        <instance x="2208" y="320" name="XLXI_6336" orien="R0">
+        </instance>
     </sheet>
     <sheet sheetnum="4" width="7040" height="5440">
         <instance x="1328" y="704" name="XLXI_5951" orien="R0" />
