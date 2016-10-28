@@ -3000,10 +3000,6 @@
             <attrtext style="alignment:SOFT-LEFT" attrname="Name" x="4112" y="3232" type="branch" />
             <wire x2="4112" y1="3232" y2="3232" x1="3872" />
         </branch>
-        <branch name="rx_data(8)">
-            <attrtext style="alignment:SOFT-RIGHT" attrname="Name" x="3328" y="3232" type="branch" />
-            <wire x2="3488" y1="3232" y2="3232" x1="3328" />
-        </branch>
         <branch name="FADC_DELAY_MAP">
             <attrtext style="alignment:SOFT-RIGHT" attrname="Name" x="3344" y="3296" type="branch" />
             <wire x2="3488" y1="3296" y2="3296" x1="3344" />
@@ -3100,6 +3096,10 @@
             <wire x2="1312" y1="2416" y2="2432" x1="1312" />
         </branch>
         <instance x="1248" y="2560" name="XLXI_6338" orien="R0" />
+        <branch name="rx_data(8)">
+            <attrtext style="alignment:SOFT-RIGHT" attrname="Name" x="3328" y="3232" type="branch" />
+            <wire x2="3488" y1="3232" y2="3232" x1="3328" />
+        </branch>
     </sheet>
     <sheet sheetnum="5" width="7040" height="5440">
         <branch name="GMII_RX_ER_0_sig">
