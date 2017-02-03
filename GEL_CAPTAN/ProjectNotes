@@ -55,3 +55,11 @@ TRIG_ATTRIBUTES: 5
 XX = Delay time for data_send module in clocks
 YYYY = Number of samples to read after trig
 ZZ = Threshold for the Peak_Finder module.   
+
+STEPS TO LOCK CLOCKS:
+
+Master_CLK cleanup: dcm_reset_0, DCM_RESET_MAP, rxdata(0)
+Master_CLK to 375: dcm_reset_1, DCM_RESET_MAP, rxdata(4)
+375 to 675: dcm_reset_2, DCM_RESET_MAP, rxdata(8)
+
+FADC_CLK cleanup: fadc_dclk_reset, FADC_DELAY_MAP, rxdata(8)

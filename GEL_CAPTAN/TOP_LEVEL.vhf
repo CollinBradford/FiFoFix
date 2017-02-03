@@ -7,7 +7,7 @@
 -- \   \   \/     Version : 14.7
 --  \   \         Application : sch2hdl
 --  /   /         Filename : TOP_LEVEL.vhf
--- /___/   /\     Timestamp : 10/28/2016 15:31:57
+-- /___/   /\     Timestamp : 02/03/2017 14:41:21
 -- \   \  /  \ 
 --  \___\/\___\ 
 --
@@ -748,10 +748,6 @@ architecture BEHAVIORAL of TOP_LEVEL is
    signal XLXN_15483                  : std_logic_vector (63 downto 0);
    signal XLXN_15484                  : std_logic_vector (63 downto 0);
    signal XLXN_15485                  : std_logic;
-   signal XLXN_15498                  : std_logic;
-   signal XLXN_15503                  : std_logic;
-   signal XLXN_15514                  : std_logic;
-   signal XLXN_15517                  : std_logic;
    signal XLXN_15518                  : std_logic;
    signal XLXI_5338_in3_openSignal    : std_logic_vector (63 downto 0);
    signal XLXI_5338_in4_openSignal    : std_logic_vector (63 downto 0);
@@ -1105,13 +1101,6 @@ architecture BEHAVIORAL of TOP_LEVEL is
              signals : out   std_logic_vector (7 downto 0));
    end component;
    
-   component OR2
-      port ( I0 : in    std_logic; 
-             I1 : in    std_logic; 
-             O  : out   std_logic);
-   end component;
-   attribute BOX_TYPE of OR2 : component is "BLACK_BOX";
-   
    component ADC_FIFO
       port ( wr_clk   : in    std_logic; 
              din      : in    std_logic_vector (31 downto 0); 
@@ -1397,7 +1386,7 @@ begin
    -- synopsys translate_on
       port map (CLKFB=>XLXN_12661,
                 CLKIN=>MASTER_CLK,
-                RST=>XLXN_15498,
+                RST=>dcm_reset_0,
                 CLKDV=>open,
                 CLKFX=>XLXN_12669,
                 CLKFX180=>open,
@@ -1432,7 +1421,7 @@ begin
    -- synopsys translate_on
       port map (CLKFB=>XLXN_12672,
                 CLKIN=>CLK_187_5,
-                RST=>XLXN_15503,
+                RST=>dcm_reset_1,
                 CLKDV=>open,
                 CLKFX=>open,
                 CLKFX180=>open,
@@ -1463,7 +1452,7 @@ begin
    -- synopsys translate_on
       port map (CLKFB=>XLXN_12923,
                 CLKIN=>CLK_MUX,
-                RST=>XLXN_15514,
+                RST=>dcm_reset_2,
                 CLKDV=>open,
                 CLKFX=>open,
                 CLKFX180=>open,
@@ -1814,7 +1803,7 @@ begin
    -- synopsys translate_on
       port map (CLKFB=>FADC_DCLK,
                 CLKIN=>XLXN_15130,
-                RST=>XLXN_15517,
+                RST=>fadc_clk_in_reset,
                 CLKDV=>open,
                 CLKFX=>open,
                 CLKFX180=>open,
@@ -2026,26 +2015,6 @@ begin
       port map (clk=>clock_5mhz,
                 rst=>XLXN_15518,
                 signals(7 downto 0)=>clk_latch_signals(7 downto 0));
-   
-   XLXI_6332 : OR2
-      port map (I0=>dcm_reset_0,
-                I1=>clk_latch_signals(0),
-                O=>XLXN_15498);
-   
-   XLXI_6333 : OR2
-      port map (I0=>clk_latch_signals(2),
-                I1=>dcm_reset_1,
-                O=>XLXN_15503);
-   
-   XLXI_6334 : OR2
-      port map (I0=>dcm_reset_2,
-                I1=>clk_latch_signals(4),
-                O=>XLXN_15514);
-   
-   XLXI_6335 : OR2
-      port map (I0=>fadc_clk_in_reset,
-                I1=>clk_latch_signals(6),
-                O=>XLXN_15517);
    
    XLXI_6336 : ADC_FIFO
       port map (din(31 downto 0)=>XLXI_6336_din_openSignal(31 downto 0),

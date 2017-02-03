@@ -1,5 +1,5 @@
 -------------------------------------------------------------------------------
--- Copyright (c) 2016 Xilinx, Inc.
+-- Copyright (c) 2017 Xilinx, Inc.
 -- All Rights Reserved
 -------------------------------------------------------------------------------
 --   ____  ____
@@ -8,7 +8,7 @@
 -- \   \   \/     Version    : 14.7
 --  \   \         Application: Xilinx CORE Generator
 --  /   /         Filename   : ila_pro_0.vho
--- /___/   /\     Timestamp  : Fri Oct 28 15:36:47 Central Daylight Time 2016
+-- /___/   /\     Timestamp  : Fri Feb 03 14:46:46 Central Standard Time 2017
 -- \   \  /  \
 --  \___\/\___\
 --
@@ -22,7 +22,7 @@ component ila_pro_0
   PORT (
     CONTROL : INOUT STD_LOGIC_VECTOR(35 DOWNTO 0);
     CLK : IN STD_LOGIC;
-    TRIG0 : IN STD_LOGIC_VECTOR(157 DOWNTO 0));
+    TRIG0 : IN STD_LOGIC_VECTOR(153 DOWNTO 0));
 
 end component;
 

@@ -216,3 +216,5 @@ INFO: [Dlyest 22-12] Total pin-pairs supplied = 36204 .
 INFO: [Dlyest 22-11] Total data-paths obtained = 9209 . 
 INFO: [Dlyest 22-13] P2P = 29658, P2B = 0, P2NB = 2781, B2B = 0, B2NB = 0, NB2NB = 1 . 
 report_clock_interaction: Time (s): elapsed = 00:00:06 . Memory (MB): peak = 771.293 ; gain = 48.625
+ERROR: [PlanAhead 12-106] *** Exception: java.lang.NullPointerException (See D:/cbradford/FiFoFix/GEL_CAPTAN\planAhead_pid7560.debug)
+ERROR: [PlanAhead 12-106] *** Exception: java.lang.NullPointerException (See D:/cbradford/FiFoFix/GEL_CAPTAN\planAhead_pid7560.debug)

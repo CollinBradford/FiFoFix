@@ -1,5 +1,5 @@
 #ChipScope Core Inserter Project File Version 3.0
-#Fri Oct 28 15:31:22 CDT 2016
+#Fri Feb 03 14:43:47 CST 2017
 Project.device.designInputFile=D\:\\cbradford\\FiFoFix\\GEL_CAPTAN\\TOP_LEVEL_cs.ngc
 Project.device.designOutputFile=D\:\\cbradford\\FiFoFix\\GEL_CAPTAN\\TOP_LEVEL_cs.ngc
 Project.device.deviceFamily=12
@@ -7,7 +7,7 @@ Project.device.enableRPMs=true
 Project.device.outputDirectory=D\:\\cbradford\\FiFoFix\\GEL_CAPTAN\\_ngo
 Project.device.useSRL16=true
 Project.filter.dimension=19
-Project.filter<0>=master*
+Project.filter<0>=
 Project.filter<10>=psi_status*
 Project.filter<11>=psi_status
 Project.filter<12>=data_send_delay_time*
@@ -17,7 +17,7 @@ Project.filter<15>=sig_compare*
 Project.filter<16>=triggered*
 Project.filter<17>=out_en_sig*
 Project.filter<18>=samplesSinceTrig*
-Project.filter<1>=
+Project.filter<1>=master*
 Project.filter<2>=fadc_dclk
 Project.filter<3>=clk_latch_signals*
 Project.filter<4>=trigger*
@@ -364,7 +364,7 @@ Project.unit<0>.triggerMatchCountWidth<0><0>=0
 Project.unit<0>.triggerMatchType<0><0>=1
 Project.unit<0>.triggerPortCount=1
 Project.unit<0>.triggerPortIsData<0>=true
-Project.unit<0>.triggerPortWidth<0>=158
+Project.unit<0>.triggerPortWidth<0>=154
 Project.unit<0>.triggerSequencerLevels=16
 Project.unit<0>.triggerSequencerType=1
 Project.unit<0>.type=ilapro

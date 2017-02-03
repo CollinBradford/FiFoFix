@@ -5,7 +5,7 @@
     The structure and the elements are likely to change over the next few releases.
     This means code written to parse this file will need to be revisited each subsequent release.-->
 
-  <application stringID="Xst" timeStamp="Fri Oct 28 15:32:01 2016">
+  <application stringID="Xst" timeStamp="Fri Feb 03 14:41:25 2017">
     <section stringID="User_Env">
       <table stringID="User_EnvVar">
         <column stringID="variable"/>
@@ -212,11 +212,11 @@
         <item stringID="XST_IOS" value="81"/>
       </section>
       <section stringID="XST_CELL_USAGE">
-        <item dataType="int" stringID="XST_BELS" value="5799">
+        <item dataType="int" stringID="XST_BELS" value="5794">
           <item dataType="int" stringID="XST_AND2" value="5"/>
           <item dataType="int" stringID="XST_AND2B1" value="4"/>
           <item dataType="int" stringID="XST_BUF" value="5"/>
-          <item dataType="int" stringID="XST_GND" value="29"/>
+          <item dataType="int" stringID="XST_GND" value="28"/>
           <item dataType="int" stringID="XST_INV" value="179"/>
           <item dataType="int" stringID="XST_LUT1" value="216"/>
           <item dataType="int" stringID="XST_LUT2" value="477"/>
@@ -231,7 +231,7 @@
           <item dataType="int" stringID="XST_MUXCY" value="790"/>
           <item dataType="int" stringID="XST_MUXF5" value="137"/>
           <item dataType="int" stringID="XST_MUXF6" value="40"/>
-          <item dataType="int" stringID="XST_OR2" value="7"/>
+          <item dataType="int" stringID="XST_OR2" value="3"/>
           <item dataType="int" stringID="XST_VCC" value="24"/>
           <item dataType="int" stringID="XST_XOR2" value="2"/>
           <item dataType="int" stringID="XST_XORCY" value="403"/>
@@ -285,7 +285,7 @@
     </section>
     <section stringID="XST_ERRORS_STATISTICS">
       <item dataType="int" filtered="0" stringID="XST_NUMBER_OF_ERRORS" value="0"/>
-      <item dataType="int" filtered="0" stringID="XST_NUMBER_OF_WARNINGS" value="313"/>
+      <item dataType="int" filtered="0" stringID="XST_NUMBER_OF_WARNINGS" value="294"/>
       <item dataType="int" filtered="0" stringID="XST_NUMBER_OF_INFOS" value="135"/>
     </section>
   </application>
