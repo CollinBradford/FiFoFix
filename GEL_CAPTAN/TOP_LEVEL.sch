@@ -275,14 +275,13 @@
         <signal name="XLXN_15485" />
         <signal name="fadc_data_in(15:0)" />
         <signal name="clk_latch_signals(7:0)" />
-        <signal name="XLXN_15498" />
         <signal name="clk_latch_signals(0)" />
-        <signal name="XLXN_15503" />
         <signal name="clk_latch_signals(2)" />
-        <signal name="XLXN_15514" />
-        <signal name="XLXN_15517" />
         <signal name="clk_latch_signals(4)" />
         <signal name="XLXN_15518" />
+        <signal name="XLXN_15520" />
+        <signal name="EbufValid">
+        </signal>
         <port polarity="Input" name="BUSC_16DP_32S" />
         <port polarity="Input" name="SECONDARY_CLK" />
         <port polarity="Output" name="BUSC_25DN_51S" />
@@ -1769,7 +1768,7 @@
             <blockpin signalname="ethernet_data_out(63:0)" name="dout(63:0)" />
             <blockpin signalname="b_data_we" name="rd_en" />
             <blockpin signalname="ethernet_fifo_empty" name="empty" />
-            <blockpin name="valid" />
+            <blockpin signalname="EbufValid" name="valid" />
         </block>
         <block symbolname="data_send" name="XLXI_6253">
             <blockpin signalname="reset" name="rst" />
@@ -1880,6 +1879,10 @@
         </block>
         <block symbolname="gnd" name="XLXI_6338">
             <blockpin signalname="XLXN_15518" name="G" />
+        </block>
+        <block symbolname="obuf" name="XLXI_6339">
+            <blockpin signalname="EbufValid" name="I" />
+            <blockpin name="O" />
         </block>
     </netlist>
     <sheet sheetnum="1" width="7040" height="5440">
@@ -2236,11 +2239,9 @@
         <instance x="288" y="3968" name="XLXI_6297" orien="R0" />
         <instance x="288" y="4288" name="XLXI_6298" orien="R0" />
         <instance x="288" y="4624" name="XLXI_6299" orien="R0" />
-        <instance x="4992" y="272" name="XLXI_6248" orien="R0">
-        </instance>
         <branch name="b_data_we">
             <attrtext style="alignment:SOFT-LEFT;fontsize:28;fontname:Arial" attrname="Name" x="5856" y="576" type="branch" />
-            <wire x2="5856" y1="576" y2="576" x1="5824" />
+            <wire x2="5856" y1="576" y2="576" x1="5808" />
         </branch>
         <instance x="6400" y="784" name="XLXI_6253" orien="R0">
         </instance>
@@ -2266,15 +2267,15 @@
         </branch>
         <branch name="MASTER_CLK">
             <attrtext style="alignment:SOFT-LEFT;fontsize:28;fontname:Arial" attrname="Name" x="5856" y="512" type="branch" />
-            <wire x2="5856" y1="512" y2="512" x1="5824" />
+            <wire x2="5856" y1="512" y2="512" x1="5808" />
         </branch>
         <branch name="reset">
             <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="4944" y="384" type="branch" />
-            <wire x2="4992" y1="384" y2="384" x1="4944" />
+            <wire x2="4976" y1="384" y2="384" x1="4944" />
         </branch>
         <branch name="ethernet_data_out(63:0)">
             <attrtext style="alignment:SOFT-LEFT;fontsize:28;fontname:Arial" attrname="Name" x="5872" y="544" type="branch" />
-            <wire x2="5872" y1="544" y2="544" x1="5824" />
+            <wire x2="5872" y1="544" y2="544" x1="5808" />
         </branch>
         <branch name="ethernet_data_out(63:0)">
             <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="6352" y="752" type="branch" />
@@ -2288,29 +2289,25 @@
         </branch>
         <branch name="FADC_DCLK">
             <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="4944" y="480" type="branch" />
-            <wire x2="4992" y1="480" y2="480" x1="4944" />
+            <wire x2="4976" y1="480" y2="480" x1="4944" />
         </branch>
         <branch name="ethernet_fifo_din(15:0)">
             <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="4944" y="512" type="branch" />
-            <wire x2="4992" y1="512" y2="512" x1="4944" />
+            <wire x2="4976" y1="512" y2="512" x1="4944" />
         </branch>
         <branch name="ethernet_fifo_in_en">
             <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="4944" y="544" type="branch" />
             <wire x2="4976" y1="544" y2="544" x1="4944" />
-            <wire x2="4992" y1="544" y2="544" x1="4976" />
-        </branch>
-        <branch name="XLXN_15364">
-            <wire x2="4992" y1="736" y2="736" x1="4944" />
         </branch>
         <instance x="4528" y="1040" name="XLXI_6291" orien="R0" />
         <branch name="ethernet_overflow">
-            <wire x2="4480" y1="864" y2="1008" x1="4480" />
-            <wire x2="4528" y1="1008" y2="1008" x1="4480" />
-            <wire x2="4992" y1="864" y2="864" x1="4480" />
+            <wire x2="4976" y1="864" y2="864" x1="4512" />
+            <wire x2="4512" y1="864" y2="1008" x1="4512" />
+            <wire x2="4528" y1="1008" y2="1008" x1="4512" />
         </branch>
         <branch name="ethernet_fifo_empty">
             <attrtext style="alignment:SOFT-LEFT;fontsize:28;fontname:Arial" attrname="Name" x="5840" y="768" type="branch" />
-            <wire x2="5840" y1="768" y2="768" x1="5824" />
+            <wire x2="5840" y1="768" y2="768" x1="5808" />
         </branch>
         <branch name="ethernet_fifo_empty">
             <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="6384" y="560" type="branch" />
@@ -2624,6 +2621,20 @@
         <instance x="4160" y="1248" name="XLXI_6330" orien="R0" />
         <instance x="2208" y="320" name="XLXI_6336" orien="R0">
         </instance>
+        <instance x="4976" y="272" name="XLXI_6248" orien="R0">
+        </instance>
+        <branch name="XLXN_15364">
+            <wire x2="4976" y1="736" y2="736" x1="4944" />
+        </branch>
+        <instance x="6016" y="992" name="XLXI_6339" orien="R0" />
+        <branch name="EbufValid">
+            <attrtext style="alignment:SOFT-LEFT;fontsize:28;fontname:Arial" attrname="Name" x="5840" y="864" type="branch" />
+            <wire x2="5840" y1="864" y2="864" x1="5808" />
+        </branch>
+        <branch name="EbufValid">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="5968" y="960" type="branch" />
+            <wire x2="6016" y1="960" y2="960" x1="5968" />
+        </branch>
     </sheet>
     <sheet sheetnum="4" width="7040" height="5440">
         <instance x="1328" y="704" name="XLXI_5951" orien="R0" />

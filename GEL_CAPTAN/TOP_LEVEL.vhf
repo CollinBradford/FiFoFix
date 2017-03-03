@@ -7,7 +7,7 @@
 -- \   \   \/     Version : 14.7
 --  \   \         Application : sch2hdl
 --  /   /         Filename : TOP_LEVEL.vhf
--- /___/   /\     Timestamp : 02/03/2017 14:41:21
+-- /___/   /\     Timestamp : 03/03/2017 14:01:43
 -- \   \  /  \ 
 --  \___\/\___\ 
 --
@@ -654,6 +654,7 @@ architecture BEHAVIORAL of TOP_LEVEL is
    signal dcm_reset_0                 : std_logic;
    signal dcm_reset_1                 : std_logic;
    signal dcm_reset_2                 : std_logic;
+   signal EbufValid                   : std_logic;
    signal ethernet_data_out           : std_logic_vector (63 downto 0);
    signal ethernet_fifo_din           : std_logic_vector (15 downto 0);
    signal ethernet_fifo_empty         : std_logic;
@@ -1896,7 +1897,7 @@ begin
                 empty=>ethernet_fifo_empty,
                 full=>XLXN_15364,
                 overflow=>ethernet_overflow,
-                valid=>open);
+                valid=>EbufValid);
    
    XLXI_6249 : PeakFinder
       port map (clk=>FADC_DCLK,
@@ -2030,6 +2031,10 @@ begin
    
    XLXI_6338 : GND
       port map (G=>XLXN_15518);
+   
+   XLXI_6339 : OBUF
+      port map (I=>EbufValid,
+                O=>open);
    
 end BEHAVIORAL;
 
