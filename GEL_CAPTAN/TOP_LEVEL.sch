@@ -93,7 +93,6 @@
         <signal name="XLXN_12697" />
         <signal name="psi_status(8)" />
         <signal name="XLXN_12783" />
-        <signal name="XLXN_12809" />
         <signal name="CLK_MUX" />
         <signal name="FADC_CLK_N" />
         <signal name="rx_data(12)" />
@@ -275,9 +274,6 @@
         <signal name="XLXN_15485" />
         <signal name="fadc_data_in(15:0)" />
         <signal name="clk_latch_signals(7:0)" />
-        <signal name="clk_latch_signals(0)" />
-        <signal name="clk_latch_signals(2)" />
-        <signal name="clk_latch_signals(4)" />
         <signal name="XLXN_15518" />
         <signal name="XLXN_15520" />
         <signal name="EbufValid">
@@ -1038,7 +1034,7 @@
             <blockpin signalname="CLK_187_5" name="D0" />
             <blockpin signalname="CLK_375" name="D1" />
             <blockpin signalname="dcm_mux_sel" name="S0" />
-            <blockpin signalname="XLXN_12809" name="O" />
+            <blockpin name="O" />
         </block>
         <block symbolname="dcm_base" name="XLXI_5963">
             <attr value="HIGH" name="DLL_FREQUENCY_MODE">
@@ -1079,10 +1075,6 @@
         <block symbolname="bufg" name="XLXI_5964">
             <blockpin signalname="XLXN_12697" name="I" />
             <blockpin signalname="XLXN_12923" name="O" />
-        </block>
-        <block symbolname="bufg" name="XLXI_6009">
-            <blockpin signalname="XLXN_12809" name="I" />
-            <blockpin signalname="CLK_MUX" name="O" />
         </block>
         <block symbolname="xor2" name="XLXI_5965">
             <blockpin signalname="XLXN_12783" name="I0" />
@@ -1883,6 +1875,10 @@
         <block symbolname="obuf" name="XLXI_6339">
             <blockpin signalname="EbufValid" name="I" />
             <blockpin name="O" />
+        </block>
+        <block symbolname="bufg" name="XLXI_6009">
+            <blockpin signalname="CLK_375" name="I" />
+            <blockpin signalname="CLK_MUX" name="O" />
         </block>
     </netlist>
     <sheet sheetnum="1" width="7040" height="5440">
@@ -2721,11 +2717,6 @@
             <attrtext style="alignment:SOFT-LEFT" attrname="Name" x="4064" y="976" type="branch" />
             <wire x2="4064" y1="976" y2="976" x1="3968" />
         </branch>
-        <branch name="CLK_375">
-            <attrtext style="alignment:SOFT-BCENTER" attrname="Name" x="4320" y="816" type="branch" />
-            <wire x2="4320" y1="816" y2="816" x1="4224" />
-            <wire x2="4432" y1="816" y2="816" x1="4320" />
-        </branch>
         <instance x="1328" y="1488" name="XLXI_5967" orien="R0" />
         <branch name="MASTER_CLK">
             <attrtext style="alignment:SOFT-RIGHT" attrname="Name" x="1168" y="1360" type="branch" />
@@ -2751,7 +2742,6 @@
             <wire x2="4000" y1="816" y2="816" x1="3968" />
         </branch>
         <instance x="4000" y="848" name="XLXI_5993" orien="R0" />
-        <instance x="3840" y="1616" name="XLXI_6004" orien="R0" />
         <instance x="3968" y="2304" name="XLXI_5963" orien="R0">
             <attrtext style="fontsize:28;fontname:Arial;displayformat:NAMEEQUALSVALUE" attrname="DLL_FREQUENCY_MODE" x="0" y="0" type="instance" />
             <attrtext style="fontsize:28;fontname:Arial;displayformat:NAMEEQUALSVALUE" attrname="DFS_FREQUENCY_MODE" x="0" y="32" type="instance" />
@@ -2769,19 +2759,11 @@
         </branch>
         <branch name="CLK_375">
             <attrtext style="alignment:SOFT-RIGHT" attrname="Name" x="3632" y="1520" type="branch" />
-            <wire x2="3840" y1="1520" y2="1520" x1="3632" />
+            <wire x2="3712" y1="1520" y2="1520" x1="3632" />
         </branch>
         <branch name="CLK_187_5">
             <attrtext style="alignment:SOFT-RIGHT" attrname="Name" x="3632" y="1456" type="branch" />
-            <wire x2="3840" y1="1456" y2="1456" x1="3632" />
-        </branch>
-        <branch name="XLXN_12809">
-            <wire x2="4192" y1="1488" y2="1488" x1="4160" />
-        </branch>
-        <instance x="4192" y="1520" name="XLXI_6009" orien="R0" />
-        <branch name="CLK_MUX">
-            <attrtext style="alignment:SOFT-LEFT" attrname="Name" x="4496" y="1488" type="branch" />
-            <wire x2="4496" y1="1488" y2="1488" x1="4416" />
+            <wire x2="3712" y1="1456" y2="1456" x1="3632" />
         </branch>
         <branch name="CLK_MUX">
             <attrtext style="alignment:SOFT-RIGHT" attrname="Name" x="3840" y="1984" type="branch" />
@@ -2810,7 +2792,7 @@
         </branch>
         <branch name="dcm_mux_sel">
             <attrtext style="alignment:SOFT-RIGHT" attrname="Name" x="3632" y="1584" type="branch" />
-            <wire x2="3840" y1="1584" y2="1584" x1="3632" />
+            <wire x2="3712" y1="1584" y2="1584" x1="3632" />
         </branch>
         <instance x="5264" y="1968" name="XLXI_5965" orien="R0" />
         <branch name="FADC_CLK_P">
@@ -3009,9 +2991,6 @@
             <wire x2="1792" y1="2352" y2="2352" x1="1744" />
         </branch>
         <rect width="3396" x="2464" y="284" height="2204" />
-        <text style="fontsize:45;fontname:Arial" x="2756" y="2000">Output Clock to the ADC</text>
-        <text style="fontsize:20;fontname:Arial" x="2832" y="2040">These DCMs need to be latched first.  </text>
-        <text style="fontsize:20;fontname:Arial" x="2592" y="3512">These DCMs need to be latched second.  </text>
         <text style="fontsize:45;fontname:Arial" x="2556" y="3464">Input Clock from ADC</text>
         <rect width="3396" x="2464" y="2528" height="1316" />
         <branch name="dcm_reset_0">
@@ -3024,9 +3003,6 @@
             <wire x2="3008" y1="1104" y2="1104" x1="2944" />
             <wire x2="2944" y1="1104" y2="1136" x1="2944" />
         </branch>
-        <branch name="clk_latch_signals(0)">
-            <wire x2="2688" y1="1072" y2="1072" x1="2672" />
-        </branch>
         <branch name="dcm_reset_1">
             <attrtext style="alignment:SOFT-RIGHT" attrname="Name" x="3264" y="944" type="branch" />
             <wire x2="3296" y1="944" y2="944" x1="3264" />
@@ -3034,18 +3010,12 @@
             <wire x2="3552" y1="944" y2="976" x1="3552" />
             <wire x2="3584" y1="976" y2="976" x1="3552" />
         </branch>
-        <branch name="clk_latch_signals(2)">
-            <wire x2="3296" y1="1008" y2="1008" x1="3264" />
-        </branch>
         <branch name="dcm_reset_2">
             <attrtext style="alignment:SOFT-RIGHT" attrname="Name" x="3616" y="2304" type="branch" />
             <wire x2="3696" y1="2304" y2="2304" x1="3616" />
             <wire x2="3952" y1="2304" y2="2304" x1="3696" />
             <wire x2="3968" y1="2272" y2="2272" x1="3952" />
             <wire x2="3952" y1="2272" y2="2304" x1="3952" />
-        </branch>
-        <branch name="clk_latch_signals(4)">
-            <wire x2="3696" y1="2240" y2="2240" x1="3616" />
         </branch>
         <branch name="fadc_clk_in_reset">
             <attrtext style="alignment:SOFT-RIGHT" attrname="Name" x="4384" y="3360" type="branch" />
@@ -3067,6 +3037,20 @@
             <attrtext style="alignment:SOFT-RIGHT" attrname="Name" x="3328" y="3232" type="branch" />
             <wire x2="3488" y1="3232" y2="3232" x1="3328" />
         </branch>
+        <text style="fontsize:45;fontname:Arial" x="2576" y="1792">Output Clock to the ADC</text>
+        <instance x="3712" y="1616" name="XLXI_6004" orien="R0" />
+        <branch name="CLK_375">
+            <attrtext style="alignment:SOFT-BCENTER" attrname="Name" x="4320" y="816" type="branch" />
+            <wire x2="4320" y1="816" y2="816" x1="4224" />
+            <wire x2="4432" y1="816" y2="816" x1="4320" />
+            <wire x2="4592" y1="816" y2="816" x1="4432" />
+        </branch>
+        <instance x="4592" y="848" name="XLXI_6009" orien="R0" />
+        <branch name="CLK_MUX">
+            <attrtext style="alignment:SOFT-LEFT" attrname="Name" x="4896" y="816" type="branch" />
+            <wire x2="4896" y1="816" y2="816" x1="4816" />
+        </branch>
+        <text x="3440" y="1604">This logic used to allow the user to select a different clock to work with, but I disabled this feature becasue I don't see how one can dynamically double the clock speed and keep everythign working at the same time. </text>
     </sheet>
     <sheet sheetnum="5" width="7040" height="5440">
         <branch name="GMII_RX_ER_0_sig">

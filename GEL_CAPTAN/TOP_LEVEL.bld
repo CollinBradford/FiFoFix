@@ -492,22 +492,6 @@ INFO:ConstraintSystem:59 - Constraint <INST "BUSA_15DN_31S" IOSTANDARD =
    1. The specified design element actually exists in the original design.
    2. The specified object is spelled correctly in the constraint source file.
 
-WARNING:ConstraintSystem:56 - Constraint <TIMESPEC TS_XLXN_12697_0 = PERIOD
-   "XLXN_12697_0" TS_XLXN_12781 HIGH 50%>: Unable to find an active 'TNM'
-   constraint named 'XLXN_12697_0'.
-
-WARNING:ConstraintSystem:56 - Constraint <TIMESPEC TS_XLXN_12783_0 = PERIOD
-   "XLXN_12783_0" TS_XLXN_12781 PHASE 0.666666667 ns HIGH 50%>: Unable to find
-   an active 'TNM' constraint named 'XLXN_12783_0'.
-
-WARNING:ConstraintSystem:56 - Constraint <TIMESPEC TS_XLXN_12930_0 = PERIOD
-   "XLXN_12930_0" TS_XLXN_12781 PHASE 1.333333333 ns HIGH 50%>: Unable to find
-   an active 'TNM' constraint named 'XLXN_12930_0'.
-
-WARNING:ConstraintSystem:56 - Constraint <TIMESPEC TS_XLXN_12931_0 = PERIOD
-   "XLXN_12931_0" TS_XLXN_12781 PHASE 2 ns HIGH 50%>: Unable to find an active
-   'TNM' constraint named 'XLXN_12931_0'.
-
 INFO:ConstraintSystem:178 - TNM 'GEL_RXCLK', used in period specification
    'TS_GEL_RXCLK', was traced into DCM_ADV instance XLXI_3410. The following new
    TNM groups and period specifications were generated at the DCM_ADV output(s):
@@ -547,11 +531,6 @@ Done...
 
 WARNING:NgdBuild:1212 - User specified non-default attribute value (5.33333333)
    was detected for the CLKIN_PERIOD attribute on DCM "XLXI_5953".  This does
-   not match the PERIOD constraint value (5.33333333 ns.).  The uncertainty
-   calculation will use the non-default attribute value.  This could result in
-   incorrect uncertainty calculated for DCM output clocks.
-WARNING:NgdBuild:1212 - User specified non-default attribute value (2.66666667)
-   was detected for the CLKIN_PERIOD attribute on DCM "XLXI_5963".  This does
    not match the PERIOD constraint value (5.33333333 ns.).  The uncertainty
    calculation will use the non-default attribute value.  This could result in
    incorrect uncertainty calculated for DCM output clocks.
@@ -638,9 +617,9 @@ Partition Implementation Status
 
 NGDBUILD Design Results Summary:
   Number of errors:     0
-  Number of warnings:  71
+  Number of warnings:  66
 
-Total memory usage is 273840 kilobytes
+Total memory usage is 275248 kilobytes
 
 Writing NGD file "TOP_LEVEL.ngd" ...
 Total REAL time to NGDBUILD completion:  10 sec

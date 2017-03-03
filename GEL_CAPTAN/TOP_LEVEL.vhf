@@ -7,7 +7,7 @@
 -- \   \   \/     Version : 14.7
 --  \   \         Application : sch2hdl
 --  /   /         Filename : TOP_LEVEL.vhf
--- /___/   /\     Timestamp : 03/03/2017 14:01:43
+-- /___/   /\     Timestamp : 03/03/2017 15:53:03
 -- \   \  /  \ 
 --  \___\/\___\ 
 --
@@ -730,7 +730,6 @@ architecture BEHAVIORAL of TOP_LEVEL is
    signal XLXN_12697                  : std_logic;
    signal XLXN_12781                  : std_logic;
    signal XLXN_12783                  : std_logic;
-   signal XLXN_12809                  : std_logic;
    signal XLXN_12923                  : std_logic;
    signal XLXN_12930                  : std_logic;
    signal XLXN_12931                  : std_logic;
@@ -1497,10 +1496,10 @@ begin
       port map (D0=>CLK_187_5,
                 D1=>CLK_375,
                 S0=>dcm_mux_sel,
-                O=>XLXN_12809);
+                O=>open);
    
    XLXI_6009 : BUFG
-      port map (I=>XLXN_12809,
+      port map (I=>CLK_375,
                 O=>CLK_MUX);
    
    XLXI_6016 : FDRE

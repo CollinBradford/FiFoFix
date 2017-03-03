@@ -3,14 +3,14 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.09 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.11 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.09 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.11 secs
  
 --> Reading design: TOP_LEVEL.prj
 
@@ -357,13 +357,13 @@ Analyzing Entity <TOP_LEVEL> in library <work> (Architecture <BEHAVIORAL>).
     Set user-defined property "FACTORY_JF =  F0F0" for instance <XLXI_3410> in unit <TOP_LEVEL>.
     Set user-defined property "PHASE_SHIFT =  0" for instance <XLXI_3410> in unit <TOP_LEVEL>.
     Set user-defined property "STARTUP_WAIT =  FALSE" for instance <XLXI_3410> in unit <TOP_LEVEL>.
-WARNING:Xst:753 - "D:/cbradford/FiFoFix/GEL_CAPTAN/TOP_LEVEL.vhf" line 1222: Unconnected output port 'D10' of component 'D4_16E_MXILINX_TOP_LEVEL'.
-WARNING:Xst:753 - "D:/cbradford/FiFoFix/GEL_CAPTAN/TOP_LEVEL.vhf" line 1222: Unconnected output port 'D11' of component 'D4_16E_MXILINX_TOP_LEVEL'.
-WARNING:Xst:753 - "D:/cbradford/FiFoFix/GEL_CAPTAN/TOP_LEVEL.vhf" line 1222: Unconnected output port 'D12' of component 'D4_16E_MXILINX_TOP_LEVEL'.
-WARNING:Xst:753 - "D:/cbradford/FiFoFix/GEL_CAPTAN/TOP_LEVEL.vhf" line 1222: Unconnected output port 'D13' of component 'D4_16E_MXILINX_TOP_LEVEL'.
-WARNING:Xst:753 - "D:/cbradford/FiFoFix/GEL_CAPTAN/TOP_LEVEL.vhf" line 1222: Unconnected output port 'D14' of component 'D4_16E_MXILINX_TOP_LEVEL'.
-WARNING:Xst:753 - "D:/cbradford/FiFoFix/GEL_CAPTAN/TOP_LEVEL.vhf" line 1222: Unconnected output port 'D15' of component 'D4_16E_MXILINX_TOP_LEVEL'.
-WARNING:Xst:753 - "D:/cbradford/FiFoFix/GEL_CAPTAN/TOP_LEVEL.vhf" line 1222: Unconnected output port 'D9' of component 'D4_16E_MXILINX_TOP_LEVEL'.
+WARNING:Xst:753 - "D:/cbradford/FiFoFix/GEL_CAPTAN/TOP_LEVEL.vhf" line 1221: Unconnected output port 'D10' of component 'D4_16E_MXILINX_TOP_LEVEL'.
+WARNING:Xst:753 - "D:/cbradford/FiFoFix/GEL_CAPTAN/TOP_LEVEL.vhf" line 1221: Unconnected output port 'D11' of component 'D4_16E_MXILINX_TOP_LEVEL'.
+WARNING:Xst:753 - "D:/cbradford/FiFoFix/GEL_CAPTAN/TOP_LEVEL.vhf" line 1221: Unconnected output port 'D12' of component 'D4_16E_MXILINX_TOP_LEVEL'.
+WARNING:Xst:753 - "D:/cbradford/FiFoFix/GEL_CAPTAN/TOP_LEVEL.vhf" line 1221: Unconnected output port 'D13' of component 'D4_16E_MXILINX_TOP_LEVEL'.
+WARNING:Xst:753 - "D:/cbradford/FiFoFix/GEL_CAPTAN/TOP_LEVEL.vhf" line 1221: Unconnected output port 'D14' of component 'D4_16E_MXILINX_TOP_LEVEL'.
+WARNING:Xst:753 - "D:/cbradford/FiFoFix/GEL_CAPTAN/TOP_LEVEL.vhf" line 1221: Unconnected output port 'D15' of component 'D4_16E_MXILINX_TOP_LEVEL'.
+WARNING:Xst:753 - "D:/cbradford/FiFoFix/GEL_CAPTAN/TOP_LEVEL.vhf" line 1221: Unconnected output port 'D9' of component 'D4_16E_MXILINX_TOP_LEVEL'.
     Set user-defined property "HU_SET =  XLXI_3432_0" for instance <XLXI_3432> in unit <TOP_LEVEL>.
     Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <XLXI_4136> in unit <TOP_LEVEL>.
     Set user-defined property "IOSTANDARD =  DEFAULT" for instance <XLXI_4136> in unit <TOP_LEVEL>.
@@ -503,6 +503,7 @@ WARNING:Xst:753 - "D:/cbradford/FiFoFix/GEL_CAPTAN/TOP_LEVEL.vhf" line 1222: Unc
     Set user-defined property "DRIVE =  12" for instance <XLXI_5999> in unit <TOP_LEVEL>.
     Set user-defined property "IOSTANDARD =  DEFAULT" for instance <XLXI_5999> in unit <TOP_LEVEL>.
     Set user-defined property "SLEW =  FAST" for instance <XLXI_5999> in unit <TOP_LEVEL>.
+WARNING:Xst:753 - "D:/cbradford/FiFoFix/GEL_CAPTAN/TOP_LEVEL.vhf" line 1495: Unconnected output port 'O' of component 'M2_1_MXILINX_TOP_LEVEL'.
     Set user-defined property "HU_SET =  XLXI_6004_1" for instance <XLXI_6004> in unit <TOP_LEVEL>.
     Set user-defined property "INIT =  0" for instance <XLXI_6016> in unit <TOP_LEVEL>.
     Set user-defined property "INIT =  0" for instance <XLXI_6025> in unit <TOP_LEVEL>.
@@ -638,7 +639,7 @@ WARNING:Xst:753 - "D:/cbradford/FiFoFix/GEL_CAPTAN/TOP_LEVEL.vhf" line 1222: Unc
     Set user-defined property "IOSTANDARD =  DEFAULT" for instance <XLXI_6236> in unit <TOP_LEVEL>.
     Set user-defined property "SLEW =  SLOW" for instance <XLXI_6236> in unit <TOP_LEVEL>.
     Set user-defined property "HU_SET =  XLXI_6247_6" for instance <XLXI_6247> in unit <TOP_LEVEL>.
-WARNING:Xst:2211 - "D:/cbradford/FiFoFix/GEL_CAPTAN/TOP_LEVEL.vhf" line 1889: Instantiating black box module <ethernet_FIFO>.
+WARNING:Xst:2211 - "D:/cbradford/FiFoFix/GEL_CAPTAN/TOP_LEVEL.vhf" line 1888: Instantiating black box module <ethernet_FIFO>.
     Set user-defined property "HU_SET =  XLXI_6251_5" for instance <XLXI_6251> in unit <TOP_LEVEL>.
     Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <XLXI_6291> in unit <TOP_LEVEL>.
     Set user-defined property "DRIVE =  12" for instance <XLXI_6291> in unit <TOP_LEVEL>.
@@ -656,12 +657,12 @@ WARNING:Xst:2211 - "D:/cbradford/FiFoFix/GEL_CAPTAN/TOP_LEVEL.vhf" line 1889: In
     Set user-defined property "DRIVE =  12" for instance <XLXI_6330> in unit <TOP_LEVEL>.
     Set user-defined property "IOSTANDARD =  DEFAULT" for instance <XLXI_6330> in unit <TOP_LEVEL>.
     Set user-defined property "SLEW =  SLOW" for instance <XLXI_6330> in unit <TOP_LEVEL>.
-WARNING:Xst:753 - "D:/cbradford/FiFoFix/GEL_CAPTAN/TOP_LEVEL.vhf" line 2020: Unconnected output port 'full' of component 'ADC_FIFO'.
-WARNING:Xst:753 - "D:/cbradford/FiFoFix/GEL_CAPTAN/TOP_LEVEL.vhf" line 2020: Unconnected output port 'overflow' of component 'ADC_FIFO'.
-WARNING:Xst:753 - "D:/cbradford/FiFoFix/GEL_CAPTAN/TOP_LEVEL.vhf" line 2020: Unconnected output port 'dout' of component 'ADC_FIFO'.
-WARNING:Xst:753 - "D:/cbradford/FiFoFix/GEL_CAPTAN/TOP_LEVEL.vhf" line 2020: Unconnected output port 'empty' of component 'ADC_FIFO'.
-WARNING:Xst:753 - "D:/cbradford/FiFoFix/GEL_CAPTAN/TOP_LEVEL.vhf" line 2020: Unconnected output port 'valid' of component 'ADC_FIFO'.
-WARNING:Xst:2211 - "D:/cbradford/FiFoFix/GEL_CAPTAN/TOP_LEVEL.vhf" line 2020: Instantiating black box module <ADC_FIFO>.
+WARNING:Xst:753 - "D:/cbradford/FiFoFix/GEL_CAPTAN/TOP_LEVEL.vhf" line 2019: Unconnected output port 'full' of component 'ADC_FIFO'.
+WARNING:Xst:753 - "D:/cbradford/FiFoFix/GEL_CAPTAN/TOP_LEVEL.vhf" line 2019: Unconnected output port 'overflow' of component 'ADC_FIFO'.
+WARNING:Xst:753 - "D:/cbradford/FiFoFix/GEL_CAPTAN/TOP_LEVEL.vhf" line 2019: Unconnected output port 'dout' of component 'ADC_FIFO'.
+WARNING:Xst:753 - "D:/cbradford/FiFoFix/GEL_CAPTAN/TOP_LEVEL.vhf" line 2019: Unconnected output port 'empty' of component 'ADC_FIFO'.
+WARNING:Xst:753 - "D:/cbradford/FiFoFix/GEL_CAPTAN/TOP_LEVEL.vhf" line 2019: Unconnected output port 'valid' of component 'ADC_FIFO'.
+WARNING:Xst:2211 - "D:/cbradford/FiFoFix/GEL_CAPTAN/TOP_LEVEL.vhf" line 2019: Instantiating black box module <ADC_FIFO>.
     Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <XLXI_6339> in unit <TOP_LEVEL>.
     Set user-defined property "DRIVE =  12" for instance <XLXI_6339> in unit <TOP_LEVEL>.
     Set user-defined property "IOSTANDARD =  DEFAULT" for instance <XLXI_6339> in unit <TOP_LEVEL>.
@@ -3258,13 +3259,13 @@ Delay:               5.299ns (Levels of Logic = 2)
 
 
 Total REAL time to Xst completion: 64.00 secs
-Total CPU time to Xst completion: 63.96 secs
+Total CPU time to Xst completion: 64.02 secs
  
 --> 
 
-Total memory usage is 721924 kilobytes
+Total memory usage is 721540 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :  293 (   0 filtered)
+Number of warnings :  294 (   0 filtered)
 Number of infos    :  135 (   0 filtered)
 
