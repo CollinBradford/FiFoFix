@@ -275,9 +275,7 @@
         <signal name="fadc_data_in(15:0)" />
         <signal name="clk_latch_signals(7:0)" />
         <signal name="XLXN_15518" />
-        <signal name="XLXN_15520" />
-        <signal name="EbufValid">
-        </signal>
+        <signal name="EbufValid" />
         <port polarity="Input" name="BUSC_16DP_32S" />
         <port polarity="Input" name="SECONDARY_CLK" />
         <port polarity="Output" name="BUSC_25DN_51S" />
@@ -675,7 +673,7 @@
             <rect width="256" x="64" y="-320" height="256" />
         </blockdef>
         <blockdef name="ethernet_FIFO">
-            <timestamp>2016-10-7T19:49:41</timestamp>
+            <timestamp>2017-3-15T18:52:14</timestamp>
             <rect width="768" x="32" y="32" height="4032" />
             <line x2="32" y1="112" y2="112" x1="0" />
             <line x2="32" y1="208" y2="208" x1="0" />
@@ -745,20 +743,6 @@
             <line x2="0" y1="-32" y2="-32" x1="64" />
             <rect width="64" x="320" y="-108" height="24" />
             <line x2="384" y1="-96" y2="-96" x1="320" />
-        </blockdef>
-        <blockdef name="ADC_FIFO">
-            <timestamp>2016-7-20T20:53:15</timestamp>
-            <rect width="768" x="32" y="32" height="4032" />
-            <line x2="32" y1="208" y2="208" x1="0" />
-            <line x2="32" y1="240" y2="240" style="linewidth:W" x1="0" />
-            <line x2="32" y1="272" y2="272" x1="0" />
-            <line x2="32" y1="464" y2="464" x1="0" />
-            <line x2="32" y1="592" y2="592" x1="0" />
-            <line x2="800" y1="240" y2="240" x1="832" />
-            <line x2="800" y1="272" y2="272" style="linewidth:W" x1="832" />
-            <line x2="800" y1="304" y2="304" x1="832" />
-            <line x2="800" y1="496" y2="496" x1="832" />
-            <line x2="800" y1="592" y2="592" x1="832" />
         </blockdef>
         <block symbolname="ibuf" name="XLXI_4248">
             <blockpin signalname="BUSC_16DP_32S" name="I" />
@@ -1058,7 +1042,7 @@
                 <trait vhdl="all:0 gm:1nosynth wa:1 wd:1" />
                 <trait valuetype="Float" />
             </attr>
-            <blockpin signalname="CLK_MUX" name="CLKIN" />
+            <blockpin signalname="CLK_187_5" name="CLKIN" />
             <blockpin signalname="XLXN_12923" name="CLKFB" />
             <blockpin signalname="dcm_reset_2" name="RST" />
             <blockpin signalname="XLXN_12697" name="CLK0" />
@@ -1857,18 +1841,6 @@
             <blockpin signalname="XLXN_15518" name="rst" />
             <blockpin signalname="clk_latch_signals(7:0)" name="signals(7:0)" />
         </block>
-        <block symbolname="ADC_FIFO" name="XLXI_6336">
-            <blockpin name="wr_clk" />
-            <blockpin name="din(31:0)" />
-            <blockpin name="wr_en" />
-            <blockpin name="full" />
-            <blockpin name="overflow" />
-            <blockpin name="rd_clk" />
-            <blockpin name="dout(127:0)" />
-            <blockpin name="rd_en" />
-            <blockpin name="empty" />
-            <blockpin name="valid" />
-        </block>
         <block symbolname="gnd" name="XLXI_6338">
             <blockpin signalname="XLXN_15518" name="G" />
         </block>
@@ -2615,8 +2587,6 @@
             <wire x2="4160" y1="1216" y2="1216" x1="4128" />
         </branch>
         <instance x="4160" y="1248" name="XLXI_6330" orien="R0" />
-        <instance x="2208" y="320" name="XLXI_6336" orien="R0">
-        </instance>
         <instance x="4976" y="272" name="XLXI_6248" orien="R0">
         </instance>
         <branch name="XLXN_15364">
@@ -2765,7 +2735,7 @@
             <attrtext style="alignment:SOFT-RIGHT" attrname="Name" x="3632" y="1456" type="branch" />
             <wire x2="3712" y1="1456" y2="1456" x1="3632" />
         </branch>
-        <branch name="CLK_MUX">
+        <branch name="CLK_187_5">
             <attrtext style="alignment:SOFT-RIGHT" attrname="Name" x="3840" y="1984" type="branch" />
             <wire x2="3968" y1="1984" y2="1984" x1="3840" />
         </branch>

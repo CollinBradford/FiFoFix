@@ -57,9 +57,9 @@ Timing constraint: PATH "TS_J4_TO_D2_ila_pro_0_path" TIG;
 Timing constraint: TS_J_CLK = PERIOD TIMEGRP "J_CLK" 30 ns HIGH 50%;
 For more information, see Period Analysis in the Timing Closure User Guide (UG612).
 
- 3399 paths analyzed, 687 endpoints analyzed, 0 failing endpoints
+ 3334 paths analyzed, 649 endpoints analyzed, 0 failing endpoints
  0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
- Minimum period is   8.444ns.
+ Minimum period is  10.400ns.
 --------------------------------------------------------------------------------
 
 ================================================================================
@@ -69,7 +69,7 @@ For more information, see From:To (Multicycle) Analysis in the Timing Closure Us
 
  18 paths analyzed, 18 endpoints analyzed, 0 failing endpoints
  0 timing errors detected. (0 setup errors, 0 hold errors)
- Maximum delay is   3.235ns.
+ Maximum delay is   3.256ns.
 --------------------------------------------------------------------------------
 
 ================================================================================
@@ -79,20 +79,20 @@ For more information, see From:To (Multicycle) Analysis in the Timing Closure Us
 
  1 path analyzed, 1 endpoint analyzed, 0 failing endpoints
  0 timing errors detected. (0 setup errors, 0 hold errors)
- Maximum delay is   0.940ns.
+ Maximum delay is   0.928ns.
 --------------------------------------------------------------------------------
 
 ================================================================================
 Timing constraint: PATH "TS_J_TO_D_path" TIG;
 
- 224 paths analyzed, 82 endpoints analyzed, 0 failing endpoints
+ 216 paths analyzed, 82 endpoints analyzed, 0 failing endpoints
  0 timing errors detected. (0 setup errors, 0 hold errors)
 --------------------------------------------------------------------------------
 
 ================================================================================
 Timing constraint: PATH "TS_D_TO_J_path" TIG;
 
- 554 paths analyzed, 537 endpoints analyzed, 0 failing endpoints
+ 520 paths analyzed, 503 endpoints analyzed, 0 failing endpoints
  0 timing errors detected. (0 setup errors, 0 hold errors)
 --------------------------------------------------------------------------------
 
@@ -100,9 +100,9 @@ Timing constraint: PATH "TS_D_TO_J_path" TIG;
 Timing constraint: TS_GEL_RXCLK = PERIOD TIMEGRP "GEL_RXCLK" 8 ns HIGH 50%;
 For more information, see Period Analysis in the Timing Closure User Guide (UG612).
 
- 102028 paths analyzed, 11164 endpoints analyzed, 0 failing endpoints
+ 101791 paths analyzed, 11011 endpoints analyzed, 0 failing endpoints
  0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
- Minimum period is   7.887ns.
+ Minimum period is   7.941ns.
 --------------------------------------------------------------------------------
 
 ================================================================================
@@ -112,7 +112,7 @@ For more information, see Period Analysis in the Timing Closure User Guide (UG61
 
  615 paths analyzed, 71 endpoints analyzed, 0 failing endpoints
  0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
- Minimum period is   5.533ns.
+ Minimum period is   5.605ns.
 --------------------------------------------------------------------------------
 
 ================================================================================
@@ -169,117 +169,9 @@ Timing constraint: TS_XLXN_15087_0 = PERIOD TIMEGRP "XLXN_15087_0"
 TS_BUSBHS_02DP_04S HIGH 50%;
 For more information, see Period Analysis in the Timing Closure User Guide (UG612).
 
- 3511 paths analyzed, 339 endpoints analyzed, 1 failing endpoint
- 1 timing error detected. (1 setup error, 0 hold errors, 0 component switching limit errors)
- Minimum period is   5.013ns.
---------------------------------------------------------------------------------
-
-Paths for end point XLXI_6249/samplesSinceTrig_15 (SLICE_X34Y116.CIN), 269 paths
---------------------------------------------------------------------------------
-Slack (setup path):     -0.013ns (requirement - (data path - clock path skew + uncertainty))
-  Source:               XLXI_6249/samplesSinceTrig_1 (FF)
-  Destination:          XLXI_6249/samplesSinceTrig_15 (FF)
-  Requirement:          5.000ns
-  Data Path Delay:      4.953ns (Levels of Logic = 17)
-  Clock Path Skew:      0.000ns
-  Source Clock:         FADC_DCLK rising at 0.000ns
-  Destination Clock:    FADC_DCLK rising at 5.000ns
-  Clock Uncertainty:    0.060ns
-
-  Clock Uncertainty:          0.060ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
-    Total System Jitter (TSJ):  0.000ns
-    Total Input Jitter (TIJ):   0.000ns
-    Discrete Jitter (DJ):       0.120ns
-    Phase Error (PE):           0.000ns
-
-  Maximum Data Path: XLXI_6249/samplesSinceTrig_1 to XLXI_6249/samplesSinceTrig_15
-    Location             Delay type         Delay(ns)  Physical Resource
-                                                       Logical Resource(s)
-    -------------------------------------------------  -------------------
-    SLICE_X34Y109.YQ     Tcko                  0.360   ila0_trig0<124>
-                                                       XLXI_6249/samplesSinceTrig_1
-    SLICE_X35Y109.G4     net (fanout=3)        0.548   ila0_trig0<125>
-    SLICE_X35Y109.COUT   Topcyg                0.559   XLXI_6249/Mcompar_samplesSinceTrig_cmp_gt0000_cy<1>
-                                                       XLXI_6249/Mcompar_samplesSinceTrig_cmp_gt0000_lut<1>
-                                                       XLXI_6249/Mcompar_samplesSinceTrig_cmp_gt0000_cy<1>
-    SLICE_X35Y110.CIN    net (fanout=1)        0.000   XLXI_6249/Mcompar_samplesSinceTrig_cmp_gt0000_cy<1>
-    SLICE_X35Y110.COUT   Tbyp                  0.086   XLXI_6249/Mcompar_samplesSinceTrig_cmp_gt0000_cy<3>
-                                                       XLXI_6249/Mcompar_samplesSinceTrig_cmp_gt0000_cy<2>
-                                                       XLXI_6249/Mcompar_samplesSinceTrig_cmp_gt0000_cy<3>
-    SLICE_X35Y111.CIN    net (fanout=1)        0.000   XLXI_6249/Mcompar_samplesSinceTrig_cmp_gt0000_cy<3>
-    SLICE_X35Y111.COUT   Tbyp                  0.086   XLXI_6249/Mcompar_samplesSinceTrig_cmp_gt0000_cy<5>
-                                                       XLXI_6249/Mcompar_samplesSinceTrig_cmp_gt0000_cy<4>
-                                                       XLXI_6249/Mcompar_samplesSinceTrig_cmp_gt0000_cy<5>
-    SLICE_X35Y112.CIN    net (fanout=1)        0.000   XLXI_6249/Mcompar_samplesSinceTrig_cmp_gt0000_cy<5>
-    SLICE_X35Y112.COUT   Tbyp                  0.086   XLXI_6249/Mcompar_samplesSinceTrig_cmp_gt0000_cy<7>
-                                                       XLXI_6249/Mcompar_samplesSinceTrig_cmp_gt0000_cy<6>
-                                                       XLXI_6249/Mcompar_samplesSinceTrig_cmp_gt0000_cy<7>
-    SLICE_X35Y113.CIN    net (fanout=1)        0.000   XLXI_6249/Mcompar_samplesSinceTrig_cmp_gt0000_cy<7>
-    SLICE_X35Y113.COUT   Tbyp                  0.086   U_ila_pro_0/U0/I_NO_D.U_ILA/U_TRIG/U_TM/G_NMU[0].U_M/U_MU/I_MUT_GANDX.U_match/I_SRL16.U_GANDX_SRL16/din_dly1<115>
-                                                       XLXI_6249/Mcompar_samplesSinceTrig_cmp_gt0000_cy<8>
-                                                       XLXI_6249/Mcompar_samplesSinceTrig_cmp_gt0000_cy<9>
-    SLICE_X35Y114.CIN    net (fanout=1)        0.000   XLXI_6249/Mcompar_samplesSinceTrig_cmp_gt0000_cy<9>
-    SLICE_X35Y114.COUT   Tbyp                  0.086   XLXI_6249/Mcompar_samplesSinceTrig_cmp_gt0000_cy<11>
-                                                       XLXI_6249/Mcompar_samplesSinceTrig_cmp_gt0000_cy<10>
-                                                       XLXI_6249/Mcompar_samplesSinceTrig_cmp_gt0000_cy<11>
-    SLICE_X35Y115.CIN    net (fanout=1)        0.000   XLXI_6249/Mcompar_samplesSinceTrig_cmp_gt0000_cy<11>
-    SLICE_X35Y115.COUT   Tbyp                  0.086   XLXI_6249/Mcompar_samplesSinceTrig_cmp_gt0000_cy<13>
-                                                       XLXI_6249/Mcompar_samplesSinceTrig_cmp_gt0000_cy<12>
-                                                       XLXI_6249/Mcompar_samplesSinceTrig_cmp_gt0000_cy<13>
-    SLICE_X35Y116.CIN    net (fanout=1)        0.000   XLXI_6249/Mcompar_samplesSinceTrig_cmp_gt0000_cy<13>
-    SLICE_X35Y116.COUT   Tbyp                  0.086   U_ila_pro_0/U0/I_NO_D.U_ILA/U_TRIG/U_TM/G_NMU[0].U_M/U_MU/I_MUT_GANDX.U_match/I_SRL16.U_GANDX_SRL16/din_dly1<116>
-                                                       XLXI_6249/Mcompar_samplesSinceTrig_cmp_gt0000_cy<14>
-                                                       XLXI_6249/Mcompar_samplesSinceTrig_cmp_gt0000_cy<15>
-    SLICE_X34Y108.G4     net (fanout=20)       1.014   XLXI_6249/Mcompar_samplesSinceTrig_cmp_gt0000_cy<15>
-    SLICE_X34Y108.Y      Tilo                  0.195   ethernet_fifo_in_en
-                                                       XLXI_6249/samplesSinceTrig_and0000_inv1
-    SLICE_X34Y109.BX     net (fanout=1)        0.139   XLXI_6249/samplesSinceTrig_and0000_inv
-    SLICE_X34Y109.COUT   Tbxcy                 0.524   ila0_trig0<124>
-                                                       XLXI_6249/Mcount_samplesSinceTrig_cy<0>
-                                                       XLXI_6249/Mcount_samplesSinceTrig_cy<1>
-    SLICE_X34Y110.CIN    net (fanout=1)        0.000   XLXI_6249/Mcount_samplesSinceTrig_cy<1>
-    SLICE_X34Y110.COUT   Tbyp                  0.089   ila0_trig0<126>
-                                                       XLXI_6249/Mcount_samplesSinceTrig_cy<2>
-                                                       XLXI_6249/Mcount_samplesSinceTrig_cy<3>
-    SLICE_X34Y111.CIN    net (fanout=1)        0.000   XLXI_6249/Mcount_samplesSinceTrig_cy<3>
-    SLICE_X34Y111.COUT   Tbyp                  0.089   ila0_trig0<128>
-                                                       XLXI_6249/Mcount_samplesSinceTrig_cy<4>
-                                                       XLXI_6249/Mcount_samplesSinceTrig_cy<5>
-    SLICE_X34Y112.CIN    net (fanout=1)        0.000   XLXI_6249/Mcount_samplesSinceTrig_cy<5>
-    SLICE_X34Y112.COUT   Tbyp                  0.089   ila0_trig0<130>
-                                                       XLXI_6249/Mcount_samplesSinceTrig_cy<6>
-                                                       XLXI_6249/Mcount_samplesSinceTrig_cy<7>
-    SLICE_X34Y113.CIN    net (fanout=1)        0.000   XLXI_6249/Mcount_samplesSinceTrig_cy<7>
-    SLICE_X34Y113.COUT   Tbyp                  0.089   ila0_trig0<132>
-                                                       XLXI_6249/Mcount_samplesSinceTrig_cy<8>
-                                                       XLXI_6249/Mcount_samplesSinceTrig_cy<9>
-    SLICE_X34Y114.CIN    net (fanout=1)        0.000   XLXI_6249/Mcount_samplesSinceTrig_cy<9>
-    SLICE_X34Y114.COUT   Tbyp                  0.089   ila0_trig0<134>
-                                                       XLXI_6249/Mcount_samplesSinceTrig_cy<10>
-                                                       XLXI_6249/Mcount_samplesSinceTrig_cy<11>
-    SLICE_X34Y115.CIN    net (fanout=1)        0.000   XLXI_6249/Mcount_samplesSinceTrig_cy<11>
-    SLICE_X34Y115.COUT   Tbyp                  0.089   ila0_trig0<136>
-                                                       XLXI_6249/Mcount_samplesSinceTrig_cy<12>
-                                                       XLXI_6249/Mcount_samplesSinceTrig_cy<13>
-    SLICE_X34Y116.CIN    net (fanout=1)        0.000   XLXI_6249/Mcount_samplesSinceTrig_cy<13>
-    SLICE_X34Y116.CLK    Tcinck                0.478   ila0_trig0<138>
-                                                       XLXI_6249/Mcount_samplesSinceTrig_cy<14>
-                                                       XLXI_6249/Mcount_samplesSinceTrig_xor<15>
-                                                       XLXI_6249/samplesSinceTrig_15
-    -------------------------------------------------  ---------------------------
-    Total                                      4.953ns (3.252ns logic, 1.701ns route)
-                                                       (65.7% logic, 34.3% route)
-
---------------------------------------------------------------------------------
-
-================================================================================
-Timing constraint: TS_XLXN_12781 = PERIOD TIMEGRP "XLXN_12781" TS_XLXN_12669 / 
-2 HIGH 50%;
-For more information, see Period Analysis in the Timing Closure User Guide (UG612).
-
- 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
- 0 timing errors detected. (0 component switching limit errors)
- Minimum period is   2.499ns.
+ 3383 paths analyzed, 275 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is   4.972ns.
 --------------------------------------------------------------------------------
 
 
@@ -290,10 +182,9 @@ Derived Constraints for TS_GEL_RXCLK
 |           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
 |                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
-|TS_GEL_RXCLK                   |      8.000ns|      7.887ns|      7.497ns|            0|            0|       102028|            0|
+|TS_GEL_RXCLK                   |      8.000ns|      7.941ns|      6.000ns|            0|            0|       101791|            0|
 | TS_XLXN_12257                 |      5.000ns|          N/A|          N/A|            0|            0|            0|            0|
-| TS_XLXN_12669                 |      5.333ns|      4.000ns|      4.998ns|            0|            0|            0|            0|
-|  TS_XLXN_12781                |      2.667ns|      2.499ns|          N/A|            0|            0|            0|            0|
+| TS_XLXN_12669                 |      5.333ns|      4.000ns|          N/A|            0|            0|            0|            0|
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
 
 Derived Constraints for TS_BUSBHS_02DN_05S
@@ -312,11 +203,11 @@ Derived Constraints for TS_BUSBHS_02DP_04S
 |           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
 |                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
-|TS_BUSBHS_02DP_04S             |      5.000ns|      3.600ns|      5.013ns|            0|            1|            0|         3511|
-| TS_XLXN_15087_0               |      5.000ns|      5.013ns|          N/A|            1|            0|         3511|            0|
+|TS_BUSBHS_02DP_04S             |      5.000ns|      3.600ns|      4.972ns|            0|            0|            0|         3383|
+| TS_XLXN_15087_0               |      5.000ns|      4.972ns|          N/A|            0|            0|         3383|            0|
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
 
-1 constraint not met.
+All constraints were met.
 
 
 Data Sheet report:
@@ -328,8 +219,8 @@ Clock to Setup on destination clock BUSBHS_02DN_05S
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-BUSBHS_02DN_05S|    5.013|         |         |         |
-BUSBHS_02DP_04S|    5.013|         |         |         |
+BUSBHS_02DN_05S|    4.972|         |         |         |
+BUSBHS_02DP_04S|    4.972|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock BUSBHS_02DP_04S
@@ -337,8 +228,8 @@ Clock to Setup on destination clock BUSBHS_02DP_04S
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-BUSBHS_02DN_05S|    5.013|         |         |         |
-BUSBHS_02DP_04S|    5.013|         |         |         |
+BUSBHS_02DN_05S|    4.972|         |         |         |
+BUSBHS_02DP_04S|    4.972|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock GEL_RXCLK
@@ -346,7 +237,7 @@ Clock to Setup on destination clock GEL_RXCLK
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-GEL_RXCLK      |    7.887|         |         |         |
+GEL_RXCLK      |    7.941|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock SECONDARY_CLK
@@ -354,30 +245,30 @@ Clock to Setup on destination clock SECONDARY_CLK
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-SECONDARY_CLK  |    5.533|         |         |         |
+SECONDARY_CLK  |    5.605|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 
 Timing summary:
 ---------------
 
-Timing errors: 1  Score: 13  (Setup/Max: 13, Hold: 0)
+Timing errors: 0  Score: 0  (Setup/Max: 0, Hold: 0)
 
-Constraints cover 110364 paths, 0 nets, and 24836 connections
+Constraints cover 109892 paths, 0 nets, and 24737 connections
 
 Design statistics:
-   Minimum period:   8.444ns   (Maximum frequency: 118.427MHz)
-   Maximum path delay from/to any node:   3.235ns
+   Minimum period:  10.400ns   (Maximum frequency:  96.154MHz)
+   Maximum path delay from/to any node:   3.256ns
 
 
-Analysis completed Fri Mar 03 16:00:40 2017 
+Analysis completed Wed Mar 15 14:01:16 2017 
 --------------------------------------------------------------------------------
 
 Trace Settings:
 -------------------------
 Trace Settings 
 
-Peak Memory Usage: 379 MB
+Peak Memory Usage: 371 MB
 
 
 

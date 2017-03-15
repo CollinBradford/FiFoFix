@@ -1,7 +1,7 @@
 Release 14.7 par P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-RIVIERA::  Fri Mar 03 15:59:34 2017
+RIVIERA::  Wed Mar 15 14:00:35 2017
 
 par -w -intstyle ise -ol high -t 1 TOP_LEVEL_map.ncd TOP_LEVEL.ncd
 TOP_LEVEL.pcf 
@@ -30,7 +30,7 @@ WARNING:Par:251 - Map -timing was run with a lower effort level setting than you
 Device Utilization Summary:
 
    Number of BSCANs                          1 out of 4      25%
-   Number of BUFGs                          12 out of 32     37%
+   Number of BUFGs                          11 out of 32     34%
    Number of DCM_ADVs                        5 out of 8      62%
    Number of IDELAYCTRLs                     1 out of 16      6%
    Number of ILOGICs                         1 out of 448     1%
@@ -41,9 +41,9 @@ Device Utilization Summary:
       Number of LOCed LOWCAPIOBs             2 out of 2     100%
 
    Number of OLOGICs                         1 out of 448     1%
-   Number of RAMB16s                        37 out of 72     51%
-   Number of Slices                       3808 out of 10752  35%
-      Number of SLICEMs                    414 out of 5376    7%
+   Number of RAMB16s                        29 out of 72     40%
+   Number of Slices                       3910 out of 10752  36%
+      Number of SLICEMs                    401 out of 5376    7%
 
 
 
@@ -53,171 +53,25 @@ Router effort level (-rl):    High
 Starting initial Timing Analysis.  REAL time: 11 secs 
 Finished initial Timing Analysis.  REAL time: 11 secs 
 
-WARNING:Par:288 - The signal XLXI_6296/Q<10> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6296/Q<11> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6296/Q<12> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6296/Q<13> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6296/Q<14> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6296/Q<15> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal icon_control0<21> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6297/Q<10> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6297/Q<11> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6297/Q<12> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6297/Q<14> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6297/Q<15> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6298/Q<10> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6298/Q<11> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6298/Q<14> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6298/Q<15> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal icon_control0<22> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal icon_control0<7> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal icon_control0<24> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal icon_control0<25> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal icon_control0<26> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal icon_control0<27> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal icon_control0<29> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6004/O has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal
    XLXI_6248/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/gsync_stage[2].rd_stg_inst/Q_reg<0>
    has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   XLXI_6248/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/gsync_stage[2].rd_stg_inst/Q_reg<1>
-   has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<31> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<30> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<29> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<28> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<27> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<63> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<62> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<61> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<60> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<59> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<95> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<94> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<93> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<92> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<91> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<127> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<126> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<125> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<124> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<123> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<26> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<58> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<90> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<122> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<25> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<24> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<23> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<22> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<21> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<20> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<19> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<18> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<57> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<56> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<55> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<54> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<53> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<52> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<51> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<50> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<89> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<88> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<87> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<86> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<85> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<84> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<83> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<82> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<121> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<120> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<119> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<118> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<117> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<116> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<115> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<114> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<17> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<49> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<81> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<113> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<16> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<15> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<14> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<13> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<12> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<11> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<10> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<9> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<48> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<47> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<46> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<45> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<44> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<43> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<42> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<41> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<80> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<79> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<78> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<77> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<76> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<75> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<74> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<73> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<112> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<111> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<110> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<109> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<108> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<107> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<106> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<105> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<8> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<40> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<72> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<104> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<7> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<6> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<5> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<4> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<3> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<2> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<1> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<0> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<39> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<38> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<37> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<36> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<35> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<34> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<33> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<32> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<71> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<70> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<69> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<68> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<67> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<66> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<65> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<64> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<103> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<102> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<101> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<100> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<99> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<98> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<97> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6336/dout<96> has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal XLXI_6227/data_manager_blk/rx_info_fifo_rd_data<6> has no load.  PAR will not attempt to
    route this signal.
 WARNING:Par:288 - The signal XLXI_6227/data_manager_blk/rx_info_fifo_rd_data<5> has no load.  PAR will not attempt to
    route this signal.
 WARNING:Par:288 - The signal XLXI_6227/data_manager_blk/rx_info_fifo_rd_data<4> has no load.  PAR will not attempt to
    route this signal.
+WARNING:Par:288 - The signal XLXI_3432/D15 has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal XLXI_3432/D7 has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal XLXI_3432/D9 has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal XLXI_3432/D10 has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal XLXI_3432/D11 has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal XLXI_3432/D12 has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal XLXI_3432/D13 has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal XLXI_3432/D14 has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal XLXI_6227/data_manager_blk/tx_ctrl_info_fifo_full has no load.  PAR will not attempt to
+   route this signal.
 WARNING:Par:288 - The signal XLXI_6227/data_manager_blk/TX_CTRL_FIFO/full has no load.  PAR will not attempt to route
    this signal.
 WARNING:Par:288 - The signal
@@ -226,32 +80,68 @@ WARNING:Par:288 - The signal
 WARNING:Par:288 - The signal
    XLXI_6227/data_manager_blk/TX_CTRL_ADDR_FIFO/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/grss.
    rsts/ram_empty_i has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   XLXI_6227/data_manager_blk/RX_SRC_MAC_FIFO/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/grss.rs
-   ts/ram_empty_i has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal XLXI_6227/data_manager_blk/TX_CTRL_FIFO/empty has no load.  PAR will not attempt to route
    this signal.
 WARNING:Par:288 - The signal XLXI_6227/data_manager_blk/tx_data_fifo_empty has no load.  PAR will not attempt to route
    this signal.
 WARNING:Par:288 - The signal XLXI_6227/data_manager_blk/RX_DATA_FIFO/empty has no load.  PAR will not attempt to route
    this signal.
-WARNING:Par:288 - The signal
-   XLXI_6248/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_i has no load.  PAR
-   will not attempt to route this signal.
 WARNING:Par:288 - The signal XLXI_6296/Q<0> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6296/Q<1> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6297/Q<5> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal XLXI_6296/Q<2> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal XLXI_6296/Q<4> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal XLXI_6296/Q<7> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal XLXI_6296/Q<8> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal XLXI_6297/Q<0> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal XLXI_6297/Q<1> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal XLXI_6297/Q<3> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal XLXI_6297/Q<6> has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal XLXI_6297/Q<8> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6297/Q<9> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal XLXI_6298/Q<0> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal XLXI_6298/Q<6> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal XLXI_6298/Q<9> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal XLXI_6299/Q<0> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal XLXI_6299/Q<2> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal XLXI_6299/Q<3> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal XLXI_6299/Q<5> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal XLXI_6299/Q<6> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal XLXI_6299/Q<7> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal XLXI_6299/Q<9> has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal icon_control0<30> has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal
-   XLXI_6227/data_manager_blk/TX_CTRL_MAC_FIFO/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.w
-   sts/ram_full_i has no load.  PAR will not attempt to route this signal.
+   XLXI_6227/data_manager_blk/TX_CTRL_ADDR_FIFO/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.
+   wsts/ram_full_i has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal
    XLXI_6227/data_manager_blk/RX_SRC_MAC_FIFO/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.ws
    ts/ram_full_i has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal icon_control0<18> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal XLXI_6051/Q<12> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal XLXI_6051/Q<13> has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal icon_control0<35> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal XLXI_6296/Q<10> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal XLXI_6296/Q<11> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal XLXI_6296/Q<14> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal XLXI_6296/Q<15> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal XLXI_6297/Q<12> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal XLXI_6297/Q<14> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal XLXI_6297/Q<15> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal XLXI_6298/Q<11> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal XLXI_6298/Q<12> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal XLXI_6298/Q<13> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal XLXI_6298/Q<14> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal icon_control0<22> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal XLXI_6299/Q<10> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal XLXI_6299/Q<13> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal XLXI_6299/Q<15> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal icon_control0<24> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal icon_control0<25> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal icon_control0<28> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal icon_control0<29> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal XLXI_6004/O has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   XLXI_6248/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_i has no load.  PAR
+   will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   XLXI_6248/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/grhf.rhf/ram_valid_i has no load.  PAR
+   will not attempt to route this signal.
 WARNING:Par:288 - The signal
    XLXI_6227/data_manager_blk/RX_SRC_ADDR_FIFO/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/grss.r
    sts/ram_empty_i has no load.  PAR will not attempt to route this signal.
@@ -259,115 +149,85 @@ WARNING:Par:288 - The signal
    XLXI_6227/data_manager_blk/RX_SRC_ADDR_FIFO/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.w
    sts/ram_full_i has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal
-   XLXI_6227/data_manager_blk/TX_CTRL_ADDR_FIFO/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.
-   wsts/ram_full_i has no load.  PAR will not attempt to route this signal.
+   XLXI_6248/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/gsync_stage[2].rd_stg_inst/Q_reg<1>
+   has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal icon_control0<21> has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal icon_control0<17> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal icon_control0<11> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal icon_control0<16> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal icon_control0<34> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal icon_control0<33> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal icon_control0<15> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal icon_control0<32> has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal icon_control0<23> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal icon_control0<34> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal icon_control0<7> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal icon_control0<15> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal icon_control0<16> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal icon_control0<11> has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal icon_control0<10> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal icon_control0<28> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal icon_control0<18> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal icon_control0<26> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal icon_control0<32> has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal icon_control0<31> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6227/data_manager_blk/tx_ctrl_info_fifo_full has no load.  PAR will not attempt to
-   route this signal.
-WARNING:Par:288 - The signal XLXI_6298/Q<0> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6298/Q<1> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6297/Q<2> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6297/Q<4> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6051/Q<13> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6298/Q<4> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6298/Q<5> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal icon_control0<27> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal icon_control0<33> has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal XLXI_6298/Q<2> has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal XLXI_6298/Q<3> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6296/Q<4> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6296/Q<8> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6296/Q<2> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6296/Q<3> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6051/Q<12> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6296/Q<9> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6298/Q<6> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal XLXI_6298/Q<1> has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal XLXI_6298/Q<7> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6297/Q<6> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6297/Q<7> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6297/Q<0> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6297/Q<3> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6297/Q<1> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6299/Q<2> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6299/Q<3> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6298/Q<8> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6298/Q<9> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal XLXI_6298/Q<5> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   XLXI_6227/data_manager_blk/RX_SRC_MAC_FIFO/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/grss.rs
+   ts/ram_empty_i has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal XLXI_6296/Q<12> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal XLXI_6298/Q<15> has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal XLXI_6296/Q<5> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal XLXI_6297/Q<2> has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal XLXI_6296/Q<6> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6296/Q<7> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_3432/D15 has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_3432/D14 has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_3432/D9 has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6297/Q<13> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_3432/D10 has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_3432/D11 has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6299/Q<4> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6299/Q<5> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6298/Q<13> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_3432/D13 has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_3432/D12 has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   XLXI_6336/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/grhf.rhf/ram_valid_d1 has no load.  PAR
-   will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6299/Q<8> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6299/Q<9> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6299/Q<6> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6299/Q<7> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6299/Q<0> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6299/Q<1> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   XLXI_6336/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/gsync_stage[2].rd_stg_inst/Q_reg<1>
-   has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   XLXI_6336/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/gsync_stage[2].rd_stg_inst/Q_reg<0>
-   has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   XLXI_6336/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwhf.whf/overflow_i has no load.  PAR
-   will not attempt to route this signal.
+WARNING:Par:288 - The signal XLXI_6296/Q<13> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal XLXI_6297/Q<4> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal XLXI_6297/Q<5> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal XLXI_6297/Q<11> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal XLXI_6297/Q<10> has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal XLXI_6299/Q<14> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6299/Q<15> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6298/Q<12> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6299/Q<13> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   XLXI_6336/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_i has no load.  PAR
-   will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6299/Q<11> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal XLXI_6299/Q<10> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal XLXI_6298/Q<4> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal XLXI_6296/Q<9> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal XLXI_6297/Q<7> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal XLXI_6299/Q<8> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal XLXI_6297/Q<13> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal XLXI_6298/Q<10> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal XLXI_6299/Q<4> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal XLXI_6298/Q<8> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal XLXI_6299/Q<1> has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal XLXI_6299/Q<12> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal XLXI_6297/Q<9> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal XLXI_6296/Q<3> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   XLXI_6227/data_manager_blk/TX_CTRL_MAC_FIFO/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.w
+   sts/ram_full_i has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal XLXI_6296/Q<1> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal XLXI_6299/Q<11> has no load.  PAR will not attempt to route this signal.
 Starting Router
 
 
-Phase  1  : 28938 unrouted;      REAL time: 12 secs 
+Phase  1  : 28264 unrouted;      REAL time: 12 secs 
 
-Phase  2  : 24150 unrouted;      REAL time: 12 secs 
+Phase  2  : 23681 unrouted;      REAL time: 12 secs 
 
-Phase  3  : 8508 unrouted;      REAL time: 15 secs 
+Phase  3  : 8019 unrouted;      REAL time: 15 secs 
 
-Phase  4  : 8505 unrouted; (Setup:0, Hold:9995, Component Switching Limit:0)     REAL time: 18 secs 
+Phase  4  : 8068 unrouted; (Setup:0, Hold:19013, Component Switching Limit:0)     REAL time: 17 secs 
 
 Updating file: TOP_LEVEL.ncd with current fully routed design.
 
-Phase  5  : 0 unrouted; (Setup:174, Hold:9995, Component Switching Limit:0)     REAL time: 24 secs 
+Phase  5  : 0 unrouted; (Setup:0, Hold:18591, Component Switching Limit:0)     REAL time: 23 secs 
 
-Phase  6  : 0 unrouted; (Setup:174, Hold:9995, Component Switching Limit:0)     REAL time: 35 secs 
+Phase  6  : 0 unrouted; (Setup:0, Hold:18591, Component Switching Limit:0)     REAL time: 23 secs 
 
-Phase  7  : 0 unrouted; (Setup:174, Hold:9995, Component Switching Limit:0)     REAL time: 36 secs 
+Phase  7  : 0 unrouted; (Setup:0, Hold:18591, Component Switching Limit:0)     REAL time: 23 secs 
 
-Phase  8  : 0 unrouted; (Setup:16, Hold:9995, Component Switching Limit:0)     REAL time: 49 secs 
+Phase  8  : 0 unrouted; (Setup:0, Hold:18591, Component Switching Limit:0)     REAL time: 23 secs 
 
-Phase  9  : 0 unrouted; (Setup:16, Hold:0, Component Switching Limit:0)     REAL time: 49 secs 
+Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 23 secs 
 
-Phase 10  : 0 unrouted; (Setup:13, Hold:0, Component Switching Limit:0)     REAL time: 50 secs 
-Total REAL time to Router completion: 50 secs 
-Total CPU time to Router completion: 47 secs 
+Phase 10  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 24 secs 
+Total REAL time to Router completion: 24 secs 
+Total CPU time to Router completion: 22 secs 
 
 Partition Implementation Status
 -------------------------------
@@ -385,20 +245,20 @@ Generating Clock Report
 +---------------------+--------------+------+------+------------+-------------+
 |        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
 +---------------------+--------------+------+------+------------+-------------+
-|       GTX_CLK_0_sig | BUFGCTRL_X0Y0| No   | 2517 |  0.338     |  2.772      |
+|       GTX_CLK_0_sig | BUFGCTRL_X0Y0| No   | 2592 |  0.320     |  2.727      |
 +---------------------+--------------+------+------+------------+-------------+
-|    icon_control0<0> |BUFGCTRL_X0Y26| No   |  155 |  0.237     |  2.641      |
+|           FADC_DCLK | BUFGCTRL_X0Y5| No   |   77 |  0.160     |  2.602      |
 +---------------------+--------------+------+------+------------+-------------+
-|           FADC_DCLK | BUFGCTRL_X0Y5| No   |   83 |  0.198     |  2.611      |
+|    icon_control0<0> |BUFGCTRL_X0Y27| No   |  149 |  0.180     |  2.632      |
 +---------------------+--------------+------+------+------------+-------------+
 |          XLXN_15064 | BUFGCTRL_X0Y1| No   |    1 |  0.000     |  2.495      |
 +---------------------+--------------+------+------+------------+-------------+
-|          clock_5mhz |         Local|      |   10 |  1.565     |  2.477      |
+|          clock_5mhz |         Local|      |   10 |  1.672     |  2.560      |
 +---------------------+--------------+------+------+------------+-------------+
-|   icon_control0<13> |         Local|      |    4 |  0.000     |  0.703      |
+|   icon_control0<13> |         Local|      |    4 |  0.000     |  0.681      |
 +---------------------+--------------+------+------+------------+-------------+
 |U_icon_pro/U0/iUPDAT |              |      |      |            |             |
-|               E_OUT |         Local|      |    1 |  0.000     |  0.559      |
+|               E_OUT |         Local|      |    1 |  0.000     |  0.584      |
 +---------------------+--------------+------+------+------------+-------------+
 
 * Net Skew is the difference between the minimum and maximum routing
@@ -409,26 +269,9 @@ the minimum and maximum path delays which includes logic delays.
 * The fanout is the number of component pins not the individual BEL loads,
 for example SLICE loads not FF loads.
 
-Timing Score: 13 (Setup: 13, Hold: 0, Component Switching Limit: 0)
+Timing Score: 0 (Setup: 0, Hold: 0, Component Switching Limit: 0)
 
-WARNING:Par:468 - Your design did not meet timing.  The following are some suggestions to assist you to meet timing in
-   your design.
-
-   Review the timing report using Timing Analyzer (In ISE select "Post-Place &
-   Route Static Timing Report"). Go to the failing constraint(s) and evaluate the failing paths for each constraint.
-
-   Try the Design Goal and Strategies for Timing Performance(In ISE select Project -> Design Goals & Strategies) to
-   ensure the best options are set in the tools for timing closure.
-
-   Use the Xilinx "SmartXplorer" script to try special combinations of
-   options known to produce very good results.
-
-   Visit the Xilinx technical support web at http://support.xilinx.com and go to
-   either "Troubleshoot->Tech Tips->Timing & Constraints" or "
-   TechXclusives->Timing Closure" for tips and suggestions for meeting timing
-   in your design.
-
-Number of Timing Constraints that were not applied: 8
+Number of Timing Constraints that were not applied: 7
 
 Asterisk (*) preceding a constraint indicates it was not met.
    This may be due to a setup or hold violation.
@@ -437,53 +280,50 @@ Asterisk (*) preceding a constraint indicates it was not met.
   Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
                                             |             |    Slack   | Achievable | Errors |    Score   
 ----------------------------------------------------------------------------------------------------------
-* TS_XLXN_15087_0 = PERIOD TIMEGRP "XLXN_15 | SETUP       |    -0.013ns|     5.013ns|       1|          13
-  087_0" TS_BUSBHS_02DP_04S HIGH 50%        | HOLD        |     0.471ns|            |       0|           0
+  TS_XLXN_15087_0 = PERIOD TIMEGRP "XLXN_15 | SETUP       |     0.028ns|     4.972ns|       0|           0
+  087_0" TS_BUSBHS_02DP_04S HIGH 50%        | HOLD        |     0.473ns|            |       0|           0
 ----------------------------------------------------------------------------------------------------------
-  TS_GEL_RXCLK = PERIOD TIMEGRP "GEL_RXCLK" | SETUP       |     0.113ns|     7.887ns|       0|           0
-   8 ns HIGH 50%                            | HOLD        |     0.335ns|            |       0|           0
-----------------------------------------------------------------------------------------------------------
-  TS_XLXN_12781 = PERIOD TIMEGRP "XLXN_1278 | MINPERIOD   |     0.167ns|     2.499ns|       0|           0
-  1" TS_XLXN_12669 / 2 HIGH 50%             |             |            |            |        |            
+  TS_GEL_RXCLK = PERIOD TIMEGRP "GEL_RXCLK" | SETUP       |     0.059ns|     7.941ns|       0|           0
+   8 ns HIGH 50%                            | HOLD        |     0.324ns|            |       0|           0
 ----------------------------------------------------------------------------------------------------------
   TS_XLXN_12669 = PERIOD TIMEGRP "XLXN_1266 | MINLOWPULSE |     1.332ns|     4.000ns|       0|           0
   9" TS_GEL_RXCLK / 1.5 HIGH 50%            |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  TS_BUSBHS_02DN_05S = PERIOD TIMEGRP "BUSB | MINLOWPULSE |     1.400ns|     3.600ns|       0|           0
-  HS_02DN_05S" 5 ns HIGH 50%                |             |            |            |        |            
-----------------------------------------------------------------------------------------------------------
   TS_BUSBHS_02DP_04S = PERIOD TIMEGRP "BUSB | MINLOWPULSE |     1.400ns|     3.600ns|       0|           0
   HS_02DP_04S" 5 ns HIGH 50%                |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_BUSBHS_02DN_05S = PERIOD TIMEGRP "BUSB | MINLOWPULSE |     1.400ns|     3.600ns|       0|           0
+  HS_02DN_05S" 5 ns HIGH 50%                |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
   TS_XLXN_15087 = PERIOD TIMEGRP "XLXN_1508 | MINPERIOD   |     2.500ns|     2.500ns|       0|           0
   7" TS_BUSBHS_02DN_05S HIGH 50%            |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  TS_U_TO_J = MAXDELAY FROM TIMEGRP "U_CLK" | SETUP       |    11.765ns|     3.235ns|       0|           0
+  TS_U_TO_J = MAXDELAY FROM TIMEGRP "U_CLK" | SETUP       |    11.744ns|     3.256ns|       0|           0
    TO TIMEGRP "J_CLK" 15 ns                 |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  TS_U_TO_U = MAXDELAY FROM TIMEGRP "U_CLK" | SETUP       |    14.060ns|     0.940ns|       0|           0
+  TS_U_TO_U = MAXDELAY FROM TIMEGRP "U_CLK" | SETUP       |    14.072ns|     0.928ns|       0|           0
    TO TIMEGRP "U_CLK" 15 ns                 |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  TS_J_CLK = PERIOD TIMEGRP "J_CLK" 30 ns H | SETUP       |    21.556ns|     8.444ns|       0|           0
-  IGH 50%                                   | HOLD        |     0.500ns|            |       0|           0
+  TS_J_CLK = PERIOD TIMEGRP "J_CLK" 30 ns H | SETUP       |    19.600ns|    10.400ns|       0|           0
+  IGH 50%                                   | HOLD        |     0.498ns|            |       0|           0
 ----------------------------------------------------------------------------------------------------------
-  TS_SECONDARY_CLK = PERIOD TIMEGRP "SECOND | SETUP       |   194.467ns|     5.533ns|       0|           0
-  ARY_CLK" 200 ns HIGH 50%                  | HOLD        |     0.796ns|            |       0|           0
-----------------------------------------------------------------------------------------------------------
-  PATH "TS_J4_TO_D2_ila_pro_0_path" TIG     | MAXDELAY    |         N/A|     4.233ns|     N/A|           0
-----------------------------------------------------------------------------------------------------------
-  PATH "TS_J_TO_D_path" TIG                 | SETUP       |         N/A|     6.389ns|     N/A|           0
-----------------------------------------------------------------------------------------------------------
-  PATH "TS_D_TO_J_path" TIG                 | SETUP       |         N/A|     4.118ns|     N/A|           0
-----------------------------------------------------------------------------------------------------------
-  PATH "TS_J3_TO_D2_ila_pro_0_path" TIG     | N/A         |         N/A|         N/A|     N/A|         N/A
+  TS_SECONDARY_CLK = PERIOD TIMEGRP "SECOND | SETUP       |   194.395ns|     5.605ns|       0|           0
+  ARY_CLK" 200 ns HIGH 50%                  | HOLD        |     1.006ns|            |       0|           0
 ----------------------------------------------------------------------------------------------------------
   TS_XLXN_12257 = PERIOD TIMEGRP "XLXN_1225 | N/A         |         N/A|         N/A|     N/A|         N/A
   7" TS_GEL_RXCLK / 1.6 HIGH 50%            |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
+  PATH "TS_D_TO_J_path" TIG                 | SETUP       |         N/A|     4.687ns|     N/A|           0
+----------------------------------------------------------------------------------------------------------
+  PATH "TS_J_TO_D_path" TIG                 | SETUP       |         N/A|     6.033ns|     N/A|           0
+----------------------------------------------------------------------------------------------------------
+  PATH "TS_J4_TO_D2_ila_pro_0_path" TIG     | MAXDELAY    |         N/A|     4.163ns|     N/A|           0
+----------------------------------------------------------------------------------------------------------
+  PATH "TS_J3_TO_D2_ila_pro_0_path" TIG     | N/A         |         N/A|         N/A|     N/A|         N/A
+----------------------------------------------------------------------------------------------------------
   PATH "TS_J2_TO_D2_ila_pro_0_path" TIG     | N/A         |         N/A|         N/A|     N/A|         N/A
 ----------------------------------------------------------------------------------------------------------
-  PATH "TS_D2_TO_T2_ila_pro_0_path" TIG     | SETUP       |         N/A|     4.713ns|     N/A|           0
+  PATH "TS_D2_TO_T2_ila_pro_0_path" TIG     | SETUP       |         N/A|     5.124ns|     N/A|           0
 ----------------------------------------------------------------------------------------------------------
 
 
@@ -497,10 +337,9 @@ Derived Constraints for TS_GEL_RXCLK
 |           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
 |                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
-|TS_GEL_RXCLK                   |      8.000ns|      7.887ns|      7.497ns|            0|            0|       102028|            0|
+|TS_GEL_RXCLK                   |      8.000ns|      7.941ns|      6.000ns|            0|            0|       101791|            0|
 | TS_XLXN_12257                 |      5.000ns|          N/A|          N/A|            0|            0|            0|            0|
-| TS_XLXN_12669                 |      5.333ns|      4.000ns|      4.998ns|            0|            0|            0|            0|
-|  TS_XLXN_12781                |      2.667ns|      2.499ns|          N/A|            0|            0|            0|            0|
+| TS_XLXN_12669                 |      5.333ns|      4.000ns|          N/A|            0|            0|            0|            0|
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
 
 Derived Constraints for TS_BUSBHS_02DN_05S
@@ -519,11 +358,11 @@ Derived Constraints for TS_BUSBHS_02DP_04S
 |           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
 |                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
-|TS_BUSBHS_02DP_04S             |      5.000ns|      3.600ns|      5.013ns|            0|            1|            0|         3511|
-| TS_XLXN_15087_0               |      5.000ns|      5.013ns|          N/A|            1|            0|         3511|            0|
+|TS_BUSBHS_02DP_04S             |      5.000ns|      3.600ns|      4.972ns|            0|            0|            0|         3383|
+| TS_XLXN_15087_0               |      5.000ns|      4.972ns|          N/A|            0|            0|         3383|            0|
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
 
-1 constraint not met.
+All constraints were met.
 INFO:Timing:2761 - N/A entries in the Constraints List may indicate that the 
    constraint is not analyzed due to the following: No paths covered by this 
    constraint; Other constraints intersect with this constraint; or This 
@@ -535,19 +374,19 @@ Generating Pad Report.
 
 All signals are completely routed.
 
-WARNING:Par:283 - There are 249 loadless signals in this design. This design will cause Bitgen to issue DRC warnings.
+WARNING:Par:283 - There are 117 loadless signals in this design. This design will cause Bitgen to issue DRC warnings.
 
-Total REAL time to PAR completion: 52 secs 
-Total CPU time to PAR completion: 49 secs 
+Total REAL time to PAR completion: 26 secs 
+Total CPU time to PAR completion: 24 secs 
 
-Peak Memory Usage:  562 MB
+Peak Memory Usage:  543 MB
 
 Placer: Placement generated during map.
 Routing: Completed - No errors found.
-Timing: Completed - 1 errors found.
+Timing: Completed - No errors found.
 
 Number of error messages: 0
-Number of warning messages: 253
+Number of warning messages: 120
 Number of info messages: 0
 
 Writing design to file TOP_LEVEL.ncd
